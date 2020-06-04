@@ -26,13 +26,13 @@ In 9 combinations of Binding & Filtering (RFC 5780), following 3 combinations ar
 The tabulating for "classic STUN" (RFC 4389) has been done in pion/webrtc's wiki page [Candidate types and combinations of NAT types](https://github.com/pion/webrtc/wiki/Network-Address-Translation#candidate-types-and-combinations-of-nat-types)
 
 Because
-- \[R_cone\] A peer after **cone NAT** can use its server reflexive candidate derived from **STUN**;
-- \[R_sym\] A peer after **symmetric NAT** must use its peer reflexive candidate derived from its **peer**;
+- \[R\_cone\] A peer after **cone NAT** can use its server reflexive candidate derived from **STUN**;
+- \[R\_sym\] A peer after **symmetric NAT** must use its peer reflexive candidate derived from its **peer**;
 
 We have following pairing rules:
-- \[R_cone-cone\] When both peers are after cone NAT, they can both use their server reflexive candidates;
-- \[R_sym-sym\] When both peers are after symmetric NAT, they must use **relay** candidates derived from *TURN*;
-- \[R_cone-sym\] When one peer is after cone NAT while the other is after symmetric NAT, server reflexive candidate can be used in combination with peer reflexive candidate to establish peer connection if the filter is not too strict, or else _relay candidates must be used for **port-restricted cone**_.
+- \[R\_cone-cone\] When both peers are after cone NAT, they can both use their server reflexive candidates;
+- \[R\_sym-sym\] When both peers are after symmetric NAT, they must use **relay** candidates derived from *TURN*;
+- \[R\_cone-sym\] When one peer is after cone NAT while the other is after symmetric NAT, server reflexive candidate can be used in combination with peer reflexive candidate to establish peer connection if the filter is not too strict, or else _relay candidates must be used for **port-restricted cone**_.
 
 Thus, we have the following the table for our 6 practical NAT types:
 
