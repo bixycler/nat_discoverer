@@ -21,7 +21,7 @@ In 9 combinations of Binding & Filtering (RFC 5780), following 3 combinations ar
 5. Addr dep Binding & Addr-port dep Filtering, AKA. "Restricted address symmetric"
 6. Addr-port dep Binding & Addr-port dep Filtering, AKA. "Strict symmetric" (RFC 4389)
 
-## Candidate pairing by type of NAT
+## Candidate pairing by NAT type
 
 The tabulating for "classic STUN" (RFC 4389) has been done in pion/webrtc's wiki page [Candidate types and combinations of NAT types](https://github.com/pion/webrtc/wiki/Network-Address-Translation#candidate-types-and-combinations-of-nat-types)
 
@@ -34,7 +34,7 @@ We have following pairing rules:
 - \[R_sym-sym\] When both peers are after symmetric NAT, they must use **relay** candidates derived from *TURN*;
 - \[R_cone-sym\] When one peer is after cone NAT while the other is after symmetric NAT, server reflexive candidate can be used in combination with peer reflexive candidate to establish peer connection if the filter is not too strict, or else _relay candidates must be used for **port-restricted cone**_.
 
-Thus, we have following the table for our 6 practical NAT types:
+Thus, we have the following the table for our 6 practical NAT types:
 
 |    \    | F.Cone     | R.Cone     | _PR.Cone_  | A.Sym      | RA.Sym     | S.Sym      |
 |:-------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
