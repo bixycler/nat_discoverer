@@ -19,7 +19,7 @@ In 9 combinations of Binding & Filtering (RFC 5780), following 3 combinations ar
 3. Endpoint indep Binding & Addr-port dep Filtering, AKA. "Port-restricted cone" (RFC 4389)
 4. Addr dep Binding & Addr dep Filtering, AKA. "Address symmetric"
 5. Addr dep Binding & Addr-port dep Filtering, AKA. "Restricted address symmetric"
-6. Addr-port dep Binding & Addr-port dep Filtering, AKA. "Strict symmetric" (RFC 4389)
+6. Addr-port dep Binding & Addr-port dep Filtering, AKA. "Strictly symmetric" (RFC 4389)
 
 ## Candidate pairing by NAT type
 
@@ -51,7 +51,7 @@ Where NAT types
 * PR.Cone: Port restricted-cone NAT
 * A.Sym: Address symmetric NAT
 * RA.Sym: Restricted address symmetric NAT
-* S.Sym: Strict symmetric NAT
+* S.Sym: Strictly symmetric NAT
 
 and candidate types
 * srflx: Server reflexive candidate (derived from STUN)
