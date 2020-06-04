@@ -8,7 +8,7 @@ NAT types in theory: {Address {dep/indep} & Port {dep/indep}} Mapping x {Address
 In 4 combinations of Address {dep/indep} & Port {dep/indep}, the "Addr indep & Port dep" is unlikely to be implemented \
 => 3^2 = 9 types in RFC 5780.
 
-In 9 combinations of Binding & Filtering (RFC 5780), following 3 combinations are meaningless because their binding is narrower than filtering: \
+In 9 combinations of Binding & Filtering (RFC 5780), following 3 combinations are meaningless because their binding is narrower than filtering:
 - Addr dep Binding & no Filtering
 - Addr-port dep Binding & no Filtering
 - Addr-port dep Binding & Addr dep Filtering
@@ -23,5 +23,27 @@ In 9 combinations of Binding & Filtering (RFC 5780), following 3 combinations ar
 
 ## Candidate pairing by type of NAT
 
-The tabulation for "classic STUN" (RFC 4389) has been done in pion/webrtc's wiki page [Candidate types and combinations of NAT types](https://github.com/pion/webrtc/wiki/Network-Address-Translation#candidate-types-and-combinations-of-nat-types)
+The tabulating for "classic STUN" (RFC 4389) has been done in pion/webrtc's wiki page [Candidate types and combinations of NAT types](https://github.com/pion/webrtc/wiki/Network-Address-Translation#candidate-types-and-combinations-of-nat-types)
 
+Here's the table for our 6 practical NAT types:
+
+| from\to | F.Cone     | R.Cone     | PR.Cone    | A.Sym      | RA.Sym     | S.Sym      |
+|:-------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
+| F.Cone  |srflx       |srflx       |srflx       |            |            |srflx\prflx |
+| R.Cone  |srflx       |srflx       |srflx       |            |            |srflx\prflx |
+| PR.Cone |srflx       |srflx       |srflx       |            |            |relay       |
+| A.Sym   |            |            |            |            |            |            |
+| RA.Sym  |            |            |            |            |            |            |
+| S.Sym   |prflx\srflx |prflx\srflx |relay       |            |            |relay       |
+
+Where
+* F.Cone: Full-cone NAT
+* R.Cone: Restricted-cone NAT
+* PR.Cone: Port restricted-cone NAT
+* A.Sym: Address symmetric NAT
+* RA.Sym: Restricted address symmetric NAT
+* S.Sym: Strict symmetric NAT
+* host: Local (host) address candidate
+* srflx: Server reflexive candidate (a candidate derived from STUN)
+* prflx: Peer reflexive candidate
+* relay: Relay NAT (a candidate derived from TURN)
