@@ -25,25 +25,37 @@ In 9 combinations of Binding & Filtering (RFC 5780), following 3 combinations ar
 
 The tabulating for "classic STUN" (RFC 4389) has been done in pion/webrtc's wiki page [Candidate types and combinations of NAT types](https://github.com/pion/webrtc/wiki/Network-Address-Translation#candidate-types-and-combinations-of-nat-types)
 
-Here's the table for our 6 practical NAT types:
+Because
+- \[R_cone\] A peer after **cone NAT** can use its server reflexive candidate derived from **STUN**;
+- \[R_sym\] A peer after **symmetric NAT** must use its peer reflexive candidate derived from its **peer**;
 
-| from\to | F.Cone     | R.Cone     | PR.Cone    | A.Sym      | RA.Sym     | S.Sym      |
+We have following pairing rules:
+- \[R_cone-cone\] When both peers are after cone NAT, they can both use their server reflexive candidates;
+- \[R_sym-sym\] When both peers are after symmetric NAT, they must use **relay** candidates derived from *TURN*;
+- \[R_cone-sym\] When one peer is after cone NAT while the other is after symmetric NAT, server reflexive candidate can be used in combination with peer reflexive candidate to establish peer connection if the filter is not too strict, or else _relay candidates must be used for **port-restricted cone**_.
+
+Thus, we have following the table for our 6 practical NAT types:
+
+|    \    | F.Cone     | R.Cone     | _PR.Cone_  | A.Sym      | RA.Sym     | S.Sym      |
 |:-------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
-| F.Cone  |srflx       |srflx       |srflx       |            |            |srflx\prflx |
-| R.Cone  |srflx       |srflx       |srflx       |            |            |srflx\prflx |
-| PR.Cone |srflx       |srflx       |srflx       |            |            |relay       |
-| A.Sym   |            |            |            |            |            |            |
-| RA.Sym  |            |            |            |            |            |            |
-| S.Sym   |prflx\srflx |prflx\srflx |relay       |            |            |relay       |
+| F.Cone  |srflx       |srflx       |srflx       |srflx\prflx |srflx\prflx |srflx\prflx |
+| R.Cone  |srflx       |srflx       |srflx       |srflx\prflx |srflx\prflx |srflx\prflx |
+|_PR.Cone_|srflx       |srflx       |srflx       |**relay**   |**relay**   |**relay**   |
+| A.Sym   |prflx\srflx |prflx\srflx |**relay**   |relay       |relay       |relay       |
+| RA.Sym  |prflx\srflx |prflx\srflx |**relay**   |relay       |relay       |relay       |
+| S.Sym   |prflx\srflx |prflx\srflx |**relay**   |relay       |relay       |relay       |
 
-Where
+Where NAT types
 * F.Cone: Full-cone NAT
 * R.Cone: Restricted-cone NAT
 * PR.Cone: Port restricted-cone NAT
 * A.Sym: Address symmetric NAT
 * RA.Sym: Restricted address symmetric NAT
 * S.Sym: Strict symmetric NAT
-* host: Local (host) address candidate
-* srflx: Server reflexive candidate (a candidate derived from STUN)
-* prflx: Peer reflexive candidate
-* relay: Relay NAT (a candidate derived from TURN)
+
+and candidate types
+* srflx: Server reflexive candidate (derived from STUN)
+* prflx: Peer reflexive candidate (derived from the other peer)
+* relay: Relay candiate (derived from TURN)
+* (one candidate type): both peers use this type of candidate, eg. both "srflx", both "relay"
+* (candR\candC): cand{R,C} is the candidate for the peer on this {row, column}
