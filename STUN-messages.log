@@ -1,0 +1,59 @@
+# nat-discovery.py
+
+192.168.1.145:12345 > 206.53.159.134:3478
+	0x0000:  4500 0030 9fac 4000 4011 6b1b c0a8 0191  E..0..@.@.k.....
+	0x0010:  ce35 9f86 3039 0d96 001c 0c1a 0001 0000  .5..09..........
+	0x0020:  b07a 306a 76cb 8a17 e8dc fa7e 2eca 91e8  .z0jv......~....
+STUN header from 0x1b: 
+0001 Binding Request 0000 l=0 b07a..91e8(transaction id)
+
+206.53.159.134:3478 > 192.168.1.145:12345
+IP/UDP/STUN headers:
+	0x0000:  4538 0078 e2ea 4000 2f11 385d ce35 9f86  E8.x..@./.8].5..
+	0x0010:  c0a8 0191 0d96 3039 0064 6a13 0101 0048  ......09.dj....H
+	0x0020:  b07a 306a 76cb 8a17 e8dc fa7e 2eca 91e8  .z0jv......~....
+STUN header from 0x1b: 
+0101 Binding Response (success) 0048 l=72 b07a..91e8(transaction id)
+
+Attributes:
+	0x0030:  0001 0008 0001 3039 734f c1cd 0004 0008  ......09sO......
+	0x0040:  0001 0d96 ce35 9f86 0005 0008 0001 0d97  .....5..........
+	0x0050:  ce35 9f87 8022 0020 4369 7472 6978 2d33  .5..."..Citrix-3
+	0x0060:  2e32 2e33 2e31 2027 4d61 7273 6861 6c20  .2.3.1.'Marshal.
+	0x0070:  5765 7374 2700 4454                      West'.DT
+0001 MAPPED-ADDRESS:    0008 0001 IPv4: 3039(12345)  734f(115.79) c1cd(193.205)
+0004 SOURCE-ADDRESS:    0008 0001 IPv4: 0d96(3478)   ce35(206.53) 9f86(159.134)
+0005 CHANGED-ADDRESS:   0008 0001 IPv4: 0d97(3479)   ce35(206.53) 9f87(159.135)
+8022 SOFTWARE: 0020 l=32 4369..2700.4454 (Citrix-3.2.3.1 'Marshal West')
+                    ^------------^------NULL terminated, l = including padding
+
+# nat-discoverer.go
+
+192.168.1.145:41069 > 206.53.159.134:3478
+	0x0000:  4500 0030 c9a6 4000 4011 4121 c0a8 0191  E..0..@.@.A!....
+	0x0010:  ce35 9f86 a06d 0d96 001c 5cfe 0001 0000  .5...m....\.....
+	0x0020:  2112 a442 53cf de58 0196 855d 8085 c5c7  !..BS..X...]....
+STUN header from 0x1b: 
+0001 Binding Request 0000 l=0 2112a442.53cf..c5c7(transaction id with magic cookie)
+
+206.53.159.134:3478 > 192.168.1.145:41069
+IP/UDP/STUN headers:
+	0x0000:  4538 0084 e242 4000 2f11 38f9 ce35 9f86  E8...B@./.8..5..
+	0x0010:  c0a8 0191 0d96 a06d 0070 e076 0101 0054  .......m.p.v...T
+	0x0020:  2112 a442 53cf de58 0196 855d 8085 c5c7  !..BS..X...]....
+STUN header from 0x1b: 
+0101 Binding Response (success) 0054 l=84 2112a442.53cf..c5c7(transaction id with magic cookie)
+
+Attributes:
+    0x0030:  0020 0008 0001 817f 525d 658f 0001 0008  ........R]e.....
+	0x0040:  0001 a06d 734f c1cd 802b 0008 0001 0d96  ...msO...+......
+	0x0050:  ce35 9f86 802c 0008 0001 0d97 ce35 9f87  .5...,.......5..
+	0x0060:  8022 001d 4369 7472 6978 2d33 2e32 2e33  ."..Citrix-3.2.3
+	0x0070:  2e31 2027 4d61 7273 6861 6c20 5765 7374  .1.'Marshal.West
+	0x0080:  276e 742d                                'nt-
+0020 XOR-MAPPED-ADDRESS:0008 0001 IPv4: 817f(41069)  525d(115.79) 658f(193.205)
+0001 MAPPED-ADDRESS:    0008 0001 IPv4: a06d(41069)  734f(115.79) c1cd(193.205)
+802b RESPONSE-ORIGIN:   0008 0001 IPv4: 0d96(3478)   ce35(206.53) 9f86(159.134)
+802c OTHER-ADDRESS:     0008 0001 IPv4: 0d97(3479)   ce35(206.53) 9f87(159.135)
+8022 SOFTWARE: 001d l=29 4369..276e.4454 (Citrix-3.2.3.1 'Marshal West')
+                    ^------------^------l = excluding padding

@@ -1,0 +1,137 @@
+3.208.102.142:3478	stun.senstar.com:3478	XMap	Map	Orig				Software:Coturn-4.5.1.0 'dan Eider'
+5.178.34.84:3478	stun.landvast.nl:3478	XMap	Map					
+5.9.154.226:3478	stun.le-space.de:3478	XMap	Map	Orig				Software:Coturn-4.2.1.2 'Monza'
+5.9.154.226:3478	stun.nicokrause.com:3478	XMap	Map	Orig				Software:Coturn-4.2.1.2 'Monza'
+18.195.213.145:3478	stun.streamix.live:3478	XMap	Map	Orig				Software:Coturn-4.5.1.1 'dan Eider'
+18.216.242.228:3478	stun.invaluable.com:3478	XMap	Map	Orig				Software:Coturn-4.5.0.5 'dan Eider'
+23.21.199.62:3478	stun.kaseya.com:3478	XMap						Software:Kaseya STUN V1.0 C++
+31.131.22.121:3478	stun.webitel.ua:3478	XMap	Map	Orig				
+31.184.236.23:3478	stun.allflac.com:3478	XMap						
+34.193.110.91:3478	stun.dunyatelekom.com:3478	XMap						
+34.197.205.39:3478	stun.healthtap.com:3478	XMap	Map	Orig				Software:Coturn-4.5.1.1 'dan Eider'
+39.103.15.214:3478	stun.hitv.com:3478	XMap	Map	Orig				Software:Coturn-4.5.0.8 'dan Eider'
+45.33.75.122:3478	stun.orszaczky.com:3478	XMap						Software:reTURNServer 1.10.0 (RFC5389)   
+45.55.181.199:3478	stun.megakosmos.com.br:3478	XMap	Map	Orig				Software:Coturn-4.5.0.3 'dan Eider'
+45.55.181.199:3478	stun.psipsi.com.br:3478	XMap	Map	Orig				Software:Coturn-4.5.0.3 'dan Eider'
+51.38.226.213:3478	stun.saooti.com:3478	XMap	Map	Orig				
+51.38.50.119:3478	stun.gkarnet.org:3478	XMap	Map	Orig				Software:Coturn-4.2.1.2 'Monza'
+51.68.112.203:3478	stun.genymotion.com:3478	XMap	Map	Orig				Software:Coturn-4.5.0.3 'dan Eider'
+51.83.201.84:3478	stun.ttmath.org:3478	XMap	Map	Orig				Software:Coturn-4.5.1.1 'dan Eider'
+52.0.11.81:3478	stun.magnocall.com:3478	XMap						Software:BeamYourScreen  
+52.52.70.85:3478	stun.skydrone.aero:3478	XMap	Map	Orig				Software:Coturn-4.5.0.3 'dan Eider'
+52.71.78.21:3478	stun.kore.com:3478	XMap	Map	Orig				Software:Coturn-4.5.0.3 'dan Eider'
+54.169.127.132:3478	stun.bandyer.com:3478	XMap	Map	Orig				Software:None
+54.177.85.190:3478	stun.sylaps.com:3478	XMap	Map	Orig				Software:Coturn-4.5.1.1 'dan Eider'
+54.247.91.34:3478	stun.advfn.com:3478	XMap	Map	Orig				
+54.37.15.200:3478	stun.thinkrosystem.com:3478	XMap	Map	Orig				Software:Coturn-4.5.1.1 'dan Eider'
+54.69.170.195:3478	stun.highfidelity.io:3478	XMap	Map	Orig				Software:None
+54.85.155.201:3478	stun.telzio.com:3478	XMap	Map	Orig				
+63.211.239.133:3478	stun.teliax.com:3478	XMap						Software:Teliax STUN 
+64.62.227.13:3478	stun.unseen.is:3478	XMap	Map	Orig				Software:Citrix-3.2.4.4 'Marshal West'
+65.17.128.101:3478	stun.wcoil.com:3478	XMap	Map	Orig				
+66.228.45.110:3478	stun.viagenie.ca:3478	XMap	Map	Orig				
+69.195.159.158:3478	stun.wtfismyip.com:3478	XMap	Map	Orig				Software:Coturn-4.5.1.1 'dan Eider'
+74.117.176.114:3478	stun.spoiltheprincess.com:3478	XMap	Map	Orig				Software:Coturn-4.5.1.1 'dan Eider'
+74.125.202.127:19302	stun3.l.google.com:19302	XMap						
+74.125.202.127:19305	stun3.l.google.com:19305	XMap						
+74.125.68.127:19302	stun.l.google.com:19302	XMap						
+74.125.68.127:19305	stun.l.google.com:19305	XMap						
+77.246.121.149:3478	stun.geesthacht.de:3478	XMap	Map					
+77.77.148.251:3478	stun.azurecoast.com:3478	XMap						
+78.111.79.151:3478	stun.effexx.com:3478	XMap	Map	Orig				Software:restund v.E5.1.105.43840 ( - / win32 )
+78.40.125.80:3478	stun.bearstech.com:3478	XMap	Map	Orig				
+79.174.66.51:3478	stun.obovsem.com:3478	XMap						
+79.175.151.131:3478	stun.degaronline.com:3478	XMap	Map	Orig				Software:Coturn-4.5.1.0 'dan Eider'
+80.155.54.123:3478	stun.alpirsbacher.de:3478	XMap	Map					
+80.156.209.102:3478	stun.lerros.com:3478	XMap	Map					
+80.156.214.187:3478	stun.finsterwalder.com:3478	XMap	Map					
+80.79.31.87:3478	stun.jpluso.cz:3478	XMap						
+81.174.159.228:3478	stun.foad.me.uk:3478	XMap	Map	Orig				Software:None
+81.30.1.82:3478	stun.ica-net.it:3478	XMap						Software:reTURNServer 1.10.2 (RFC5389)   
+81.82.206.117:3478	stun.peethultra.be:3478	XMap	Map					
+81.82.240.141:3478	stun.verbo.be:3478	XMap	Map					
+82.165.72.146:3478	stun.extrasaltmobile.com:3478	XMap						Software:reTURNServer 1.11.0~beta5 (RFC5389) 
+82.197.218.246:3478	stun.chewinggum.nl:3478	XMap	Map	Orig				Software:Coturn-4.5.0.3 'dan Eider'
+82.202.222.188:3478	stun.atmapro.ru:3478	XMap	Map	Orig				Software:Coturn-4.5.0.3 'dan Eider'
+84.198.248.217:3478	stun.synergiejobs.be:3478	XMap	Map					
+85.214.57.119:3478	stun.madavi.de:3478	XMap	Map	Orig				Software:restund v0.4.2 (x86_64/linux)
+87.191.18.11:3478	stun.leibergmbh.de:3478	XMap	Map	Orig				Software:restund v.E6.3.2.2073 ( - / win32 )
+88.198.151.128:3478	stun.studio-link.de:3478	XMap	Map	Orig				Software:restund v0.4.12 (x86_64/linux)
+88.99.67.241:3478	stun.zentauron.de:3478	XMap	Map	Orig				Software:Coturn-4.5.1.1 'dan Eider'
+91.122.224.102:3478	stun.arkh-edu.ru:3478		Map		Src			
+91.213.98.56:3478	stun.fmo.de:3478	XMap	Map					
+91.217.201.14:3478	stun.sippeer.dk:3478	XMap	Map	Orig				
+92.63.111.151:3478	stun.trainingspace.online:3478	XMap	Map	Orig				Software:Coturn-4.5.0.3 'dan Eider'
+94.140.180.141:3478	stun.peeters.com:3478	XMap	Map					
+95.216.78.222:3478	stun.kanojo.de:3478	XMap	Map	Orig				Software:Coturn-4.5.1.1 'dan Eider'
+109.69.177.38:3478	stun.gravitel.ru:3478	XMap	Map	Orig				
+111.230.157.11:3478	stun.var6.cn:3478	XMap	Map	Orig				
+115.28.80.60:3478	stun.sharpbai.com:3478	XMap	Map	Orig				
+123.59.41.203:3478	stun.gotye.com.cn:3478	XMap	Map	Orig				Software:Coturn-4.2.2.2 'Monza'
+129.146.140.233:3478	stun.frozenmountain.com:3478	XMap	Map					
+134.106.11.139:3478	stun.zuckschwerdt.org:3478	XMap	Map	Orig				Software:Coturn-4.5.1.1 'dan Eider'
+136.243.59.79:3478	stun.linuxtrent.it:3478	XMap	Map	Orig				Software:Coturn-4.5.1.1 'dan Eider'
+136.243.59.79:3478	stun.poetamatusel.org:3478	XMap	Map	Orig				Software:Coturn-4.5.1.1 'dan Eider'
+138.201.70.161:3478	stun.cdosea.org:3478	XMap	Map	Orig				Software:None
+138.201.70.161:3478	stun.piratecinema.org:3478	XMap	Map	Orig				Software:None
+138.201.70.161:3478	stun.textz.com:3478	XMap	Map	Orig				Software:None
+148.251.70.50:3478	stun.yangutu.com:3478	XMap						
+151.236.192.99:3478	stun.kaznpu.kz:3478	XMap						
+151.80.245.246:3478	stun.innovaphone.com:3478	XMap	Map					
+151.80.245.247:3478	stun.innovaphone.de:3478	XMap	Map					
+151.80.27.189:3478	stun.exoplatform.org:3478	XMap	Map	Orig				Software:None
+157.240.13.7:3478	stun.fbsbx.com:3478		Map					
+162.243.105.244:3478	stun.aceweb.com:3478	XMap	Map	Orig				
+172.105.99.33:3478	stun.moonlight-stream.org:3478	XMap	Map	Orig				
+173.194.199.127:19302	stun2.l.google.com:19302	XMap						
+173.194.199.127:19305	stun2.l.google.com:19305	XMap						
+173.194.203.127:19302	stun1.l.google.com:19302	XMap						
+173.194.203.127:19305	stun1.l.google.com:19305	XMap						
+173.194.77.127:19302	stun4.l.google.com:19302	XMap						
+173.194.77.127:19305	stun4.l.google.com:19305	XMap						
+176.62.31.10:3478	stun.it1.hr:3478	XMap						Software:reTURNServer 0.4 - RFC5389/turn-12  
+178.63.240.148:3478	stun.framasoft.org:3478	XMap	Map	Orig				
+183.36.123.211:3478	stun.yy.com:3478	XMap	Map					
+184.105.229.56:3478	stun.instantteleseminar.com:3478	XMap						
+185.158.144.41:3478	stun.redworks.nl:3478	XMap	Map	Orig				
+185.244.192.220:3478	stun.hardt-ware.de:3478	XMap						
+185.41.24.10:3478	stun.elitetele.com:3478	XMap	Map	Orig				
+188.118.52.172:3478	stun.eurosys.be:3478	XMap	Map					
+188.68.50.215:3478	stun.dukun.de:3478	XMap	Map	Orig				
+192.162.9.94:3478	stun.thfree.ru:3478	XMap	Map	Orig				Software:Coturn-4.2.1.2 'Monza'
+193.169.179.138:3478	stun.smdr.ru:3478	XMap						Software:reTURNServer 1.10.2 (RFC5389)   
+193.22.17.97:3478	stun.bitburger.de:3478	XMap	Map					
+194.149.72.133:3478	stun.lleida.net:3478	XMap	Map	Orig				
+194.187.168.70:3478	stun.qwant.com:3478	XMap	Map	Orig				Software:Coturn-4.5.0.5 'dan Eider'
+195.145.93.141:3478	stun.baltmannsweiler.de:3478	XMap	Map					
+195.42.181.37:3478	stun.pobeda-club.ru:3478	XMap						
+195.42.181.37:3478	stun.rudtp.ru:3478	XMap						
+197.155.250.156:3478	stun.telviva.com:3478	XMap	Map	Orig				Software:Coturn-4.5.0.3 'dan Eider'
+198.199.88.224:3478	stun.cozy.org:3478	XMap	Map	Orig				Software:Citrix-3.2.3.5 'Marshal West'
+199.4.110.11:3478	stun.cellmail.com:3478	XMap						Software:reTURNServer (RFC5389)  
+200.152.96.204:3478	stun.mls.com.br:3478	XMap						Software:TurnServer 0.7.3
+203.13.68.16:3478	stun.onthenet.com.au:3478	XMap	Map	Orig				
+203.20.110.2:3478	stun.isp.net.au:3478	XMap						Software:reTURNServer 0.4 - RFC5389/turn-12  
+203.75.129.33:3478	stun.hinet.net:3478	XMap	Map	Orig				Software:None
+207.38.89.164:3478	stun.optdyn.com:3478	XMap	Map	Orig				
+212.144.246.197:3478	stun.ukh.de:3478	XMap	Map					
+212.204.93.217:3478	stun.guenzburg.de:3478	XMap	Map	Orig				Software:restund v.E6.2.1.1159 ( - / win32 )
+212.211.179.42:3478	stun.schoeffel.de:3478	XMap	Map	Orig				Software:restund v.E6.2.5.1575 ( - / win32 )
+212.45.38.40:3478	stun.solcon.nl:3478	XMap						
+212.53.40.40:3478	stun.1cbit.ru:3478	XMap						
+212.53.40.40:3478	stun.sipnet.com:3478	XMap						
+212.53.40.40:3478	stun.sipnet.net:3478	XMap						
+212.53.40.40:3478	stun.sipnet.ru:3478	XMap						
+212.53.40.40:3478	stun.zepter.ru:3478	XMap						
+212.80.226.18:3478	stun.graftlab.com:3478	XMap	Map					
+213.144.15.144:3478	stun.realgarant.com:3478	XMap	Map					
+213.157.4.53:3478	stun.kreis-bergstrasse.de:3478	XMap	Map	Orig				Software:restund v.E6.4.1.2459 ( - / win32 )
+213.178.196.92:3478	stun.telemar.it:3478	XMap	Map					
+213.239.206.5:3478	stun.piratenbrandenburg.de:3478	XMap	Map	Orig				Software:Coturn-4.5.1.1 'dan Eider'
+213.239.212.105:3478	stun.files.fm:3478	XMap	Map	Orig				Software:Coturn-4.5.0.8 'dan Eider'
+213.251.48.147:3478	stun.cope.es:3478	XMap	Map	Orig				
+213.32.33.155:3478	stun.bimp.fr:3478	XMap	Map	Orig				Software:Coturn-4.5.0.5 'dan Eider'
+217.119.210.45:3478	stun.komsa.de:3478	XMap	Map	Orig				Software:restund v.E6.4.0.2264 ( - / win32 )
+217.9.216.41:3478	stun.lindab.com:3478	XMap	Map					
+217.91.243.229:3478	stun.3deluxe.de:3478	XMap	Map					
+217.92.89.8:3478	stun.steinbeis-smi.de:3478	XMap	Map					

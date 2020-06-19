@@ -1,0 +1,523 @@
+3.208.102.142:3478	stun.senstar.com:3478	Attr+{}	XMap	Map	Orig:3.208.102.142:3478				Software:"Coturn-4.5.1.0 'dan Eider'"
+5.178.34.84:3478	stun.landvast.nl:3478	Attr+{FINGERPRINT }	XMap	Map					
+5.196.72.166:3478	stun.uavia.eu:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:5.196.72.166:3478		Oth:127.0.0.1:3479		Software:"None"
+5.255.95.41:3478	stun.teconisy.com:3478	Attr+{}	XMap	Map		Src:5.255.95.41:3478		Chg:10.10.25.69:3479	Software:"Vovida.org 0.96"
+5.39.13.130:3478	stun.technosens.fr:3478	Attr+{}	XMap	Map		Src:5.39.13.130:3478		Chg:5.39.13.135:3479	Software:"Vovida.org 0.96"
+5.61.82.230:3478	stun.ekir.de:3478	Attr+{}	XMap	Map	Orig:5.61.82.230:3478		Oth:5.61.82.227:443		Software:"Coturn-4.5.0.2 'dan Eider'"
+5.9.112.14:3478	stun.kiesler.at:3478	Attr+{}	XMap	Map	Orig:5.9.112.14:3478		Oth:127.0.0.1:3479		Software:"Citrix-3.2.5.3 'Marshal West'"
+5.9.112.14:3478	stun.ko2100.at:3478	Attr+{}	XMap	Map	Orig:5.9.112.14:3478		Oth:127.0.0.1:3479		Software:"Citrix-3.2.5.3 'Marshal West'"
+5.9.154.226:3478	stun.le-space.de:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:5.9.154.226:3478				Software:"Coturn-4.2.1.2 'Monza'"
+5.9.154.226:3478	stun.nicokrause.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:5.9.154.226:3478				Software:"Coturn-4.2.1.2 'Monza'"
+5.9.32.208:3478	stun.stbuehler.de:3478	Attr+{}	XMap	Map	Orig:5.9.32.208:3478		Oth:5.9.32.208:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+5.9.87.18:3478	stun.einfachcallback.de:3478	Attr+{}	XMap	Map		Src:5.9.87.18:3478		Chg:5.9.87.6:3479	Software:"Vovida.org 0.96"
+5.9.87.18:3478	stun.nexxtmobile.de:3478	Attr+{}	XMap	Map		Src:5.9.87.18:3478		Chg:5.9.87.6:3479	Software:"Vovida.org 0.96"
+5.9.87.18:3478	stun.solomo.de:3478	Attr+{}	XMap	Map		Src:5.9.87.18:3478		Chg:5.9.87.6:3479	Software:"Vovida.org 0.96"
+13.113.72.79:3478	stun.bethesda.net:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:13.113.72.79:3478		Oth:13.113.72.79:3479		Software:"None"
+13.250.61.172:3478	stun.globalmeet.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:172.20.71.182:3478		Oth:172.20.71.182:3479		Software:"Coturn-4.5.1.0 'dan Eider'"
+18.144.18.152:3478	stun.artrage.com:3478	Attr+{}	XMap	Map	Orig:18.114.18.152:3478		Oth:18.114.18.152:3479		Software:"None"
+13.228.116.50:3478	stun.chatous.com:3478	Attr+{}	XMap	Map	Orig:13.228.116.50:3478		Oth:13.228.116.50:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+18.188.120.144:3478	stun.marble.io:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:172.31.29.78:3478		Oth:172.31.29.78:3479		Software:"None"
+18.191.223.12:3478	stun.issabel.org:3478	Attr+{}	XMap	Map	Orig:18.191.223.12:3478		Oth:18.219.110.18:3479		
+18.191.223.12:3478	stun.stunprotocol.org:3478	Attr+{}	XMap	Map	Orig:18.191.223.12:3478		Oth:18.219.110.18:3479		
+18.195.213.145:3478	stun.streamix.live:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:18.195.213.145:3478				Software:"Coturn-4.5.1.1 'dan Eider'"
+18.216.242.228:3478	stun.invaluable.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:10.0.0.209:3478				Software:"Coturn-4.5.0.5 'dan Eider'"
+23.21.199.62:3478	stun.kaseya.com:3478	Attr+{}	XMap						Software:"Kaseya STUN V1.0 C++"
+23.252.81.20:3478	stun.plexicomm.net:3478	Attr+{}	XMap	Map	Orig:23.252.81.20:3478		Oth:23.252.81.21:3479		
+23.253.102.137:3478	stun.epygi.com:3478	Attr+{}	XMap	Map	Orig:23.253.102.137:3478		Oth:162.242.144.6:3479		
+27.111.15.93:3478	stun.tel2.co.uk:3478	Attr+{}	XMap	Map		Src:27.111.15.93:3478		Chg:27.111.15.81:3479	Software:"Vovida.org 0.97"
+31.131.22.121:3478	stun.webitel.ua:3478	Attr+{}	XMap	Map	Orig:31.131.22.121:3478				
+31.132.2.106:3478	stun.ransquawk.com:3478	Attr+{}	XMap	Map	Orig:31.132.2.106:3478		Oth:31.132.2.106:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+31.184.236.23:3478	stun.allflac.com:3478	Attr+{FINGERPRINT }	XMap						
+34.193.110.91:3478	stun.dunyatelekom.com:3478	Attr+{}	XMap						
+34.197.205.39:3478	stun.healthtap.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:0.0.0.0:3478				Software:"Coturn-4.5.1.1 'dan Eider'"
+34.73.197.25:3478	stun.ringvoz.com:3478	Attr+{}	XMap	Map	Orig:10.142.0.2:3478		Oth:10.142.0.2:3479		Software:"None"
+34.73.197.25:3478	stun.telonline.com:3478	Attr+{}	XMap	Map	Orig:10.142.0.2:3478		Oth:10.142.0.2:3479		Software:"None"
+35.173.95.110:3478	stun.meetangee.com:3478	Attr+{}	XMap	Map	Orig:35.173.95.110:3478		Oth:35.173.95.110:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+37.139.120.14:3478	stun.vozelia.com:3478	Attr+{}	XMap	Map	Orig:37.139.120.14:3478		Oth:37.139.120.15:3479		
+37.157.193.46:3478	stun.training-online.eu:3478	Attr+{}	XMap	Map	Orig:37.157.193.46:3478		Oth:37.157.193.46:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+37.187.168.105:3478	stun.mondiaspora.net:3478	Attr+{}	XMap	Map	Orig:37.187.168.105:3478		Oth:37.187.168.105:3479		Software:"Citrix-3.2.4.5 'Marshal West'"
+37.187.168.105:3478	stun.mondiaspora.org:3478	Attr+{}	XMap	Map	Orig:37.187.168.105:3478		Oth:37.187.168.105:3479		Software:"Citrix-3.2.4.5 'Marshal West'"
+37.187.168.105:3478	stun.mrmondialisation.org:3478	Attr+{}	XMap	Map	Orig:37.187.168.105:3478		Oth:37.187.168.105:3479		Software:"Citrix-3.2.4.5 'Marshal West'"
+37.59.10.93:3478	stun.semiocast.com:3478	Attr+{}	XMap	Map		Src:37.59.10.93:3478		Chg:87.98.162.120:3479	Software:"Vovida.org 0.96"
+37.59.92.57:3478	stun.h4v.eu:3478	Attr+{}	XMap	Map		Src:37.59.92.57:3478		Chg:37.59.92.58:3479	Software:"Vovida.org 0.96"
+37.59.92.57:3478	stun.otos.pl:3478	Attr+{}	XMap	Map		Src:37.59.92.57:3478		Chg:37.59.92.58:3479	Software:"Vovida.org 0.96"
+37.9.136.90:3478	stun.easter-eggs.com:3478	Attr+{}	XMap	Map		Src:37.9.136.90:3478		Chg:37.9.136.91:3479	Software:"Vovida.org 0.96"
+37.97.65.52:3478	stun.sewan.fr:3478	Attr+{}	XMap	Map	Orig:37.97.65.52:3478		Oth:37.97.65.53:3479		Software:"Citrix-3.2.5.9 'Marshal West'"
+39.103.15.214:3478	stun.hitv.com:3478	Attr+{}	XMap	Map	Orig:47.95.40.254:3478				Software:"Coturn-4.5.0.8 'dan Eider'"
+41.79.23.7:3478	stun.syrex.co.za:3478	Attr+{}	XMap	Map	Orig:41.79.23.7:3478		Oth:41.79.23.24:3479		
+42.121.15.99:3478	stun.cloopen.com:3478	Attr+{}	XMap	Map		Src:42.121.15.99:3478		Chg:0.0.0.0:3479	Software:"Vovida.org 0.96"
+45.32.217.190:3478	stun.siptrunk.com:3478	Attr+{}	XMap	Map	Orig:45.32.217.190:3478		Oth:45.32.212.202:3479		
+45.32.217.190:3478	stun.sip.us:3478	Attr+{}	XMap	Map	Orig:45.32.217.190:3478		Oth:45.32.212.202:3479		
+45.33.75.122:3478	stun.orszaczky.com:3478	Attr+{}	XMap						Software:"reTURNServer 1.10.0 (RFC5389)   "
+45.55.181.199:3478	stun.megakosmos.com.br:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:45.55.181.199:3478				Software:"Coturn-4.5.0.3 'dan Eider'"
+45.55.181.199:3478	stun.psipsi.com.br:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:45.55.181.199:3478				Software:"Coturn-4.5.0.3 'dan Eider'"
+46.140.39.26:3478	stun.sius.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:10.0.1.3:3478		Oth:192.168.2.103:3479		Software:"Citrix-3.2.3.8 'Marshal West'"
+46.182.250.45:3478	stun.personal-voip.de:3478	Attr+{}	XMap	Map		Src:46.182.250.45:3478		Chg:46.182.250.43:5060	
+46.182.250.45:3478	stun.stochastix.de:3478	Attr+{}	XMap	Map		Src:46.182.250.45:3478		Chg:46.182.250.43:5060	
+46.193.255.81:3478	stun.wifirst.net:3478	Attr+{}	XMap	Map		Src:172.23.17.157:3478		Chg:172.23.33.159:3479	Software:"Vovida.org 0.96"
+49.12.125.53:3478	stun.hot-chilli.net:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:49.12.125.53:3478		Oth:49.12.125.24:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+49.212.135.222:3478	stun.sg-slope.com:3478	Attr+{}	XMap	Map	Orig:49.212.135.222:3478		Oth:49.212.135.222:3479		Software:"Citrix-3.2.2.4 'Marshal West'"
+50.22.128.21:3478	stun.lovense.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:50.22.128.21:3478		Oth:50.22.128.21:3479		Software:"None"
+51.254.122.113:3478	stun.call.me:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:51.254.122.113:3478		Oth:51.254.122.113:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+51.38.226.213:3478	stun.saooti.com:3478	Attr+{}	XMap	Map	Orig:10.42.161.70:3478				
+51.38.50.119:3478	stun.gkarnet.org:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:51.38.50.119:3478				Software:"Coturn-4.2.1.2 'Monza'"
+51.83.15.212:3478	stun.genymotion.com:3478	Attr+{}	XMap	Map	Orig:51.83.15.212:3478				Software:"Coturn-4.5.0.3 'dan Eider'"
+51.83.201.84:3478	stun.ttmath.org:3478	Attr+{}	XMap	Map	Orig:51.83.201.84:3478				Software:"Coturn-4.5.1.1 'dan Eider'"
+52.0.11.81:3478	stun.magnocall.com:3478	Attr+{}	XMap						Software:"BeamYourScreen  "
+52.24.174.49:3478	stun.sonetel.com:3478	Attr+{}	XMap	Map	Orig:52.24.174.49:3478		Oth:52.24.174.49:3479		Software:"Citrix-3.2.2.1 'Marshal West'"
+52.26.251.34:3478	stun.sonetel.net:3478	Attr+{}	XMap	Map	Orig:52.26.251.34:3478		Oth:172.31.9.136:3479		Software:"Citrix-3.2.2.1 'Marshal West'"
+52.52.70.85:3478	stun.skydrone.aero:3478	Attr+{}	XMap	Map	Orig:52.52.70.85:3478				Software:"Coturn-4.5.0.3 'dan Eider'"
+52.71.78.21:3478	stun.kore.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:52.71.78.21:3478				Software:"Coturn-4.5.0.3 'dan Eider'"
+52.76.91.67:3478	stun.hoiio.com:3478	Attr+{}	XMap	Map	Orig:52.76.91.67:3478		Oth:52.74.211.13:3479		
+52.89.69.224:3478	stun.mage.com.vn:3478	Attr+{}	XMap	Map	Orig:172.31.35.117:3478		Oth:172.31.35.117:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+54.163.229.157:3478	stun.testreach.com:3478	Attr+{}	XMap	Map	Orig:10.69.209.27:3478		Oth:10.69.209.27:3479		Software:"Coturn-4.5.0.1 'dan Eider'"
+54.169.127.132:3478	stun.bandyer.com:3478	Attr+{}	XMap	Map	Orig:54.169.127.132:3478				Software:"None"
+54.173.127.164:3478	stun.fathomvoice.com:3478	Attr+{}	XMap	Map	Orig:54.173.127.164:3478		Oth:54.173.127.165:3479		
+54.177.85.190:3478	stun.sylaps.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:54.177.85.190:3478				Software:"Coturn-4.5.1.1 'dan Eider'"
+54.183.232.212:3478	stun.hicare.net:3478	Attr+{}	XMap	Map	Orig:54.183.232.212:3478		Oth:54.215.223.71:3479		
+54.223.41.250:3478	stun.newrocktech.com:3478	Attr+{}	XMap	Map	Orig:54.223.41.250:3478		Oth:54.223.41.250:3479		Software:"Coturn-4.4.5.4 'Ardee West'"
+54.247.91.34:3478	stun.advfn.com:3478	Attr+{}	XMap	Map	Orig:54.247.91.34:3478				
+54.36.67.77:3478	stun.provectio.fr:3478	Attr+{}	XMap	Map		Src:54.36.67.77:3478		Chg:54.36.67.76:3479	Software:"Vovida.org 0.97"
+54.37.15.200:3478	stun.thinkrosystem.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:54.37.15.200:3478				Software:"Coturn-4.5.1.1 'dan Eider'"
+51.38.45.26:3478	stun1.faktortel.com.au:3478	Attr+{}	XMap			Src:51.38.45.26:3478		Chg:51.91.201.86:3479	Software:"reTURNServer 1.11.0~beta1 (RFC5389) "
+51.38.45.26:3478	stun.faktortel.com.au:3478	Attr+{}	XMap			Src:51.38.45.26:3478		Chg:51.91.201.86:3479	Software:"reTURNServer 1.11.0~beta1 (RFC5389) "
+54.37.20.144:3478	stun.innotel.com.au:3478	Attr+{}	XMap			Src:54.37.20.144:3478		Chg:151.80.120.125:3479	Software:"reTURNServer 1.11.0~beta1 (RFC5389) "
+54.37.202.229:3478	stun.linphone.org:3478	Attr+{}	XMap	Map		Src:0.0.0.0:3478		Chg:0.0.0.0:0	Software:"oRTP   0.99"
+51.38.45.26:3478	stun.3cx.com:3478	Attr+{}	XMap			Src:51.38.45.26:3478		Chg:51.91.201.86:3479	Software:"reTURNServer 1.11.0~beta1 (RFC5389) "
+54.39.188.150:3478	stun.peoplefone.ch:3478	Attr+{}	XMap			Src:54.39.188.150:3478		Chg:54.39.75.88:3479	Software:"reTURNServer 1.11.0~beta1 (RFC5389) "
+54.69.170.195:3478	stun.highfidelity.io:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:54.69.170.195:3478				Software:"None"
+54.72.235.205:3478	stun.crononauta.com:3478	Attr+{}	XMap	Map	Orig:172.31.40.23:3478		Oth:172.31.40.23:3479		Software:"Coturn-4.5.0.5 'dan Eider'"
+54.85.155.201:3478	stun.telzio.com:3478	Attr+{}	XMap	Map	Orig:172.31.51.166:3478				
+62.96.96.137:3478	stun.mit.de:3478	Attr+{}	XMap	Map		Src:62.96.96.137:3478		Chg:62.96.96.138:3479	Software:"Vovida.org 0.96"
+63.211.239.133:3478	stun.teliax.com:3478	Attr+{}	XMap						Software:"Teliax STUN "
+64.126.67.89:3478	stun.surrealnetworks.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:192.168.0.31:3478		Oth:192.168.0.31:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+64.62.227.13:3478	stun.unseen.is:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:64.62.227.13:3478				Software:"Citrix-3.2.4.4 'Marshal West'"
+64.77.226.37:3478	stun.onesuite.com:3478	Attr+{}	XMap	Map		Src:10.1.200.37:3478		Chg:10.1.200.17:3479	Software:"Vovida.org 0.96"
+65.17.128.101:3478	stun.wcoil.com:3478	Attr+{}	XMap	Map	Orig:65.17.128.101:3478				
+65.99.199.231:3478	stun.vadacom.co.nz:3478	Attr+{}	XMap	Map		Src:65.99.199.231:3478		Chg:65.99.199.232:3479	
+66.110.73.74:3478	stun.lineaencasa.com:3478	Attr+{}	XMap	Map	Orig:66.110.73.74:3478		Oth:66.110.73.75:3479		
+66.158.128.6:3478	stun.b2b2c.ca:3478	Attr+{}	XMap	Map		Src:66.158.128.6:3478		Chg:66.158.128.38:3479	Software:"Vovida.org 0.96"
+66.171.240.105:3478	stun.phytter.com:3478	Attr+{}	XMap	Map	Orig:66.171.240.105:3478		Oth:66.171.240.106:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+66.228.45.110:3478	stun.viagenie.ca:3478	Attr+{}	XMap	Map	Orig:66.228.45.110:3478				
+66.228.54.23:3478	stun.voztovoice.org:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:66.228.54.23:3478		Oth:45.33.16.134:3479		Software:"None"
+69.195.159.158:3478	stun.wtfismyip.com:3478	Attr+{}	XMap	Map	Orig:69.195.159.158:3478				Software:"Coturn-4.5.1.1 'dan Eider'"
+69.20.59.115:3478	stun.acronis.com:3478	Attr+{}	XMap			Src:0.0.0.0:3478		Chg:0.0.0.0:3479	Software:"reTURNServer 0.4 - RFC5389/turn-12  "
+69.89.160.30:3478	stun.qcol.net:3478	Attr+{}	XMap	Map	Orig:69.89.160.30:3478		Oth:69.89.160.31:3479		
+70.42.198.30:3478	stun.vivox.com:3478	Attr+{}	XMap	Map		Src:70.42.198.30:3478		Chg:70.42.198.16:3479	Software:"Vovida.org 0.97"
+74.117.176.114:3478	stun.spoiltheprincess.com:3478	Attr+{}	XMap	Map	Orig:74.117.176.114:3478				Software:"Coturn-4.5.1.1 'dan Eider'"
+74.125.202.127:19302	stun3.l.google.com:19302	Attr+{}	XMap						
+74.125.202.127:19305	stun3.l.google.com:19305	Attr+{}	XMap						
+172.253.118.127:19302	stun.l.google.com:19302	Attr+{}	XMap						
+172.253.118.127:19305	stun.l.google.com:19305	Attr+{}	XMap						
+77.243.0.75:3478	stun.sovtest.ru:3478	Attr+{}	XMap	Map	Orig:77.243.0.75:3478		Oth:77.243.0.75:3479		Software:"None"
+77.246.121.149:3478	stun.geesthacht.de:3478	Attr+{FINGERPRINT }	XMap	Map					
+77.246.29.197:3478	stun.splicecom.com:3478	Attr+{}	XMap	Map		Src:10.254.1.4:3478		Chg:10.254.1.4:3479	
+77.72.169.212:3478	stun.actionvoip.com:3478	Attr+{}		Map		Src:77.72.169.212:3478		Chg:77.72.169.213:3479	
+77.72.169.211:3478	stun.botonakis.com:3478	Attr+{}		Map		Src:77.72.169.211:3478		Chg:77.72.169.210:3479	
+77.72.169.213:3478	stun.cheapvoip.com:3478	Attr+{}		Map		Src:77.72.169.213:3478		Chg:77.72.169.212:3479	
+77.72.169.212:3478	stun.freecall.com:3478	Attr+{}		Map		Src:77.72.169.212:3478		Chg:77.72.169.213:3479	
+77.72.169.211:3478	stun.siptraffic.com:3478	Attr+{}		Map		Src:77.72.169.211:3478		Chg:77.72.169.210:3479	
+77.72.169.212:3478	stun.smartvoip.com:3478	Attr+{}		Map		Src:77.72.169.212:3478		Chg:77.72.169.213:3479	
+77.72.169.212:3478	stun.voipbuster.com:3478	Attr+{}		Map		Src:77.72.169.212:3478		Chg:77.72.169.213:3479	
+77.72.169.212:3478	stun.voipcheap.com:3478	Attr+{}		Map		Src:77.72.169.212:3478		Chg:77.72.169.213:3479	
+77.72.169.213:3478	stun.voipfibre.com:3478	Attr+{}		Map		Src:77.72.169.213:3478		Chg:77.72.169.212:3479	
+77.72.169.211:3478	stun.voipinfocenter.com:3478	Attr+{}		Map		Src:77.72.169.211:3478		Chg:77.72.169.210:3479	
+77.72.169.210:3478	stun.voippro.com:3478	Attr+{}		Map		Src:77.72.169.210:3478		Chg:77.72.169.211:3479	
+77.72.169.212:3478	stun.voipraider.com:3478	Attr+{}		Map		Src:77.72.169.212:3478		Chg:77.72.169.213:3479	
+77.72.169.213:3478	stun.voipstunt.com:3478	Attr+{}		Map		Src:77.72.169.213:3478		Chg:77.72.169.212:3479	
+77.72.169.210:3478	stun.easyvoip.com:3478	Attr+{}		Map		Src:77.72.169.210:3478		Chg:77.72.169.211:3479	
+77.72.169.213:3478	stun.ideasip.com:3478	Attr+{}		Map		Src:77.72.169.213:3478		Chg:77.72.169.212:3479	
+77.72.169.210:3478	stun.internetcalls.com:3478	Attr+{}		Map		Src:77.72.169.210:3478		Chg:77.72.169.211:3479	
+77.72.169.213:3478	stun.jumblo.com:3478	Attr+{}		Map		Src:77.72.169.213:3478		Chg:77.72.169.212:3479	
+77.72.169.213:3478	stun.liveo.fr:3478	Attr+{}		Map		Src:77.72.169.213:3478		Chg:77.72.169.212:3479	
+77.72.169.211:3478	stun.talkho.com:3478	Attr+{}		Map		Src:77.72.169.211:3478		Chg:77.72.169.210:3479	
+77.72.169.213:3478	stun.telbo.com:3478	Attr+{}		Map		Src:77.72.169.213:3478		Chg:77.72.169.212:3479	
+77.72.169.210:3478	stun.voipconnect.com:3478	Attr+{}		Map		Src:77.72.169.210:3478		Chg:77.72.169.211:3479	
+77.72.169.212:3478	stun.voipgain.com:3478	Attr+{}		Map		Src:77.72.169.212:3478		Chg:77.72.169.213:3479	
+77.72.169.211:3478	stun.voipwise.com:3478	Attr+{}		Map		Src:77.72.169.211:3478		Chg:77.72.169.210:3479	
+77.72.169.212:3478	stun.voipzoom.com:3478	Attr+{}		Map		Src:77.72.169.212:3478		Chg:77.72.169.213:3479	
+77.72.169.212:3478	stun.12voip.com:3478	Attr+{}		Map		Src:77.72.169.212:3478		Chg:77.72.169.213:3479	
+77.72.169.213:3478	stun.freevoipdeal.com:3478	Attr+{}		Map		Src:77.72.169.213:3478		Chg:77.72.169.212:3479	
+77.72.169.210:3478	stun.justvoip.com:3478	Attr+{}		Map		Src:77.72.169.210:3478		Chg:77.72.169.211:3479	
+77.72.169.211:3478	stun.kotter.net:3478	Attr+{}		Map		Src:77.72.169.211:3478		Chg:77.72.169.210:3479	
+77.72.169.210:3478	stun.myvoiptraffic.com:3478	Attr+{}		Map		Src:77.72.169.210:3478		Chg:77.72.169.211:3479	
+77.72.169.213:3478	stun.poivy.com:3478	Attr+{}		Map		Src:77.72.169.213:3478		Chg:77.72.169.212:3479	
+77.72.169.212:3478	stun.smslisto.com:3478	Attr+{}		Map		Src:77.72.169.212:3478		Chg:77.72.169.213:3479	
+77.72.169.211:3478	stun.sparvoip.de:3478	Attr+{}		Map		Src:77.72.169.211:3478		Chg:77.72.169.210:3479	
+77.72.169.211:3478	stun.voiparound.com:3478	Attr+{}		Map		Src:77.72.169.211:3478		Chg:77.72.169.210:3479	
+77.72.169.213:3478	stun.voipblast.com:3478	Attr+{}		Map		Src:77.72.169.213:3478		Chg:77.72.169.212:3479	
+77.72.169.210:3478	stun.budgetsip.com:3478	Attr+{}		Map		Src:77.72.169.210:3478		Chg:77.72.169.211:3479	
+77.72.169.213:3478	stun.intervoip.com:3478	Attr+{}		Map		Src:77.72.169.213:3478		Chg:77.72.169.212:3479	
+77.72.169.211:3478	stun.netappel.com:3478	Attr+{}		Map		Src:77.72.169.211:3478		Chg:77.72.169.210:3479	
+77.72.169.212:3478	stun.powervoip.com:3478	Attr+{}		Map		Src:77.72.169.212:3478		Chg:77.72.169.213:3479	
+77.72.169.211:3478	stun.ppdi.com:3478	Attr+{}		Map		Src:77.72.169.211:3478		Chg:77.72.169.210:3479	
+77.72.169.211:3478	stun.rynga.com:3478	Attr+{}		Map		Src:77.72.169.211:3478		Chg:77.72.169.210:3479	
+77.72.169.211:3478	stun.signalwire.com:3478	Attr+{}		Map		Src:77.72.169.211:3478		Chg:77.72.169.210:3479	
+77.72.169.210:3478	stun.sipdiscount.com:3478	Attr+{}		Map		Src:77.72.169.210:3478		Chg:77.72.169.211:3479	
+77.72.169.213:3478	stun.smsdiscount.com:3478	Attr+{}		Map		Src:77.72.169.213:3478		Chg:77.72.169.212:3479	
+77.72.169.213:3478	stun.voicetrading.com:3478	Attr+{}		Map		Src:77.72.169.213:3478		Chg:77.72.169.212:3479	
+77.72.169.213:3478	stun.voipbusterpro.com:3478	Attr+{}		Map		Src:77.72.169.213:3478		Chg:77.72.169.212:3479	
+77.72.169.211:3478	stun.voipcheap.co.uk:3478	Attr+{}		Map		Src:77.72.169.211:3478		Chg:77.72.169.210:3479	
+77.72.169.213:3478	stun.voipdiscount.com:3478	Attr+{}		Map		Src:77.72.169.213:3478		Chg:77.72.169.212:3479	
+77.77.148.251:3478	stun.azurecoast.com:3478	Attr+{FINGERPRINT }	XMap						
+78.111.72.53:3478	stun.simlar.org:3478	Attr+{}	XMap	Map	Orig:78.111.72.53:3478		Oth:78.111.72.54:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+78.111.74.182:3478	stun.dcalling.de:3478	Attr+{}	XMap	Map		Src:78.111.74.182:3478		Chg:78.111.74.183:3479	Software:"Vovida.org 0.96"
+78.111.79.151:3478	stun.effexx.com:3478	Attr+{}	XMap	Map	Orig:10.19.10.216:3478				Software:"restund v.E5.1.105.43840 ( - / win32 )"
+78.40.125.80:3478	stun.bearstech.com:3478	Attr+{}	XMap	Map	Orig:78.40.125.80:3478				
+78.40.250.221:3478	stun.nova.is:3478	Attr+{}	XMap	Map		Src:78.40.250.221:3478		Chg:78.40.250.222:3479	Software:"Vovida.org 0.96"
+78.46.73.141:3478	stun.julosoft.net:3478	Attr+{}	XMap	Map	Orig:78.46.73.141:3478		Oth:78.46.73.141:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+79.136.2.52:3478	stun.bahnhof.net:3478	Attr+{}	XMap	Map		Src:10.10.30.131:3478		Chg:10.10.30.136:3479	Software:"Vovida.org 0.96"
+79.140.42.88:3478	stun.root-1.de:3478	Attr+{}	XMap	Map	Orig:79.140.42.88:3478		Oth:79.140.42.88:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+79.174.66.51:3478	stun.obovsem.com:3478	Attr+{FINGERPRINT }	XMap						
+79.175.151.131:3478	stun.degaronline.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:79.175.151.131:3478				Software:"Coturn-4.5.1.0 'dan Eider'"
+80.155.54.123:3478	stun.alpirsbacher.de:3478	Attr+{FINGERPRINT }	XMap	Map					
+80.156.209.102:3478	stun.lerros.com:3478	Attr+{FINGERPRINT }	XMap	Map					
+80.156.214.187:3478	stun.finsterwalder.com:3478	Attr+{FINGERPRINT }	XMap	Map					
+80.247.238.244:3478	stun.lacompagnieducode.org:3478	Attr+{}	XMap	Map		Src:80.247.238.244:3478		Chg:192.168.0.45:3479	Software:"Vovida.org 0.96"
+80.250.1.173:3478	stun.sipy.cz:3478	Attr+{}	XMap	Map		Src:80.250.1.173:3478		Chg:80.250.1.167:3479	Software:"Vovida.org 0.96"
+80.250.1.173:3478	stun.wia.cz:3478	Attr+{}	XMap	Map		Src:80.250.1.173:3478		Chg:80.250.1.167:3479	Software:"Vovida.org 0.96"
+80.79.31.87:3478	stun.jpluso.cz:3478	Attr+{FINGERPRINT }	XMap						
+81.162.64.162:3478	stun.crimeastar.net:3478	Attr+{}	XMap	Map		Src:81.162.64.162:3478		Chg:127.0.0.1:3479	Software:"Vovida.org 0.96"
+81.169.142.143:3478	stun.nerathor.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:81.169.142.143:3478		Oth:81.169.142.143:3479		Software:"None"
+81.174.159.228:3478	stun.foad.me.uk:3478	Attr+{}	XMap	Map	Orig:81.174.159.228:3478				Software:"None"
+81.19.224.87:3478	stun.jay.net:3478	Attr+{}	XMap	Map		Src:81.19.224.87:3478		Chg:81.19.224.88:3479	Software:"Vovida.org 0.97"
+85.17.186.7:3478	stun.sipthor.net:3478	Attr+{}	XMap	Map		Src:85.17.186.7:3478		Chg:85.17.186.12:3479	Software:"Vovida.org 0.96"
+81.25.228.2:3478	stun.sky.od.ua:3478	Attr+{}	XMap	Map		Src:81.25.228.2:3478		Chg:81.25.228.3:3479	Software:"Vovida.org 0.96"
+81.30.1.82:3478	stun.ica-net.it:3478	Attr+{}	XMap						Software:"reTURNServer 1.10.2 (RFC5389)   "
+81.82.206.117:3478	stun.peethultra.be:3478	Attr+{FINGERPRINT }	XMap	Map					
+81.82.240.141:3478	stun.verbo.be:3478	Attr+{FINGERPRINT }	XMap	Map					
+81.91.111.11:3478	stun.anlx.net:3478	Attr+{}	XMap	Map		Src:81.91.111.11:3478		Chg:81.91.111.111:3479	Software:"Vovida.org 0.97"
+82.113.193.63:3478	stun.olimontel.it:3478	Attr+{}	XMap	Map		Src:82.113.193.63:3478		Chg:82.113.193.67:3479	Software:"Vovida.org 0.96"
+82.113.193.63:3478	stun.totalcom.info:3478	Attr+{}	XMap	Map		Src:82.113.193.63:3478		Chg:82.113.193.67:3479	Software:"Vovida.org 0.96"
+82.113.193.63:3478	stun.twt.it:3478	Attr+{}	XMap	Map		Src:82.113.193.63:3478		Chg:82.113.193.67:3479	Software:"Vovida.org 0.96"
+82.135.97.42:3478	stun.deutscherskiverband.de:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:192.168.12.223:5349		Oth:192.168.12.223:5350		Software:"Coturn-4.5.1.1 'dan Eider'"
+82.165.72.146:3478	stun.extrasaltmobile.com:3478	Attr+{}	XMap						Software:"reTURNServer 1.11.0~beta5 (RFC5389) "
+82.197.218.246:3478	stun.chewinggum.nl:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:82.197.218.246:3478				Software:"Coturn-4.5.0.3 'dan Eider'"
+82.202.222.188:3478	stun.atmapro.ru:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:82.202.222.188:3478				Software:"Coturn-4.5.0.3 'dan Eider'"
+82.97.157.254:3478	stun.tng.de:3478	Attr+{}	XMap	Map		Src:82.97.157.254:3478		Chg:82.97.157.252:3479	Software:"Vovida.org 0.96"
+83.125.8.47:3478	stun.dus.net:3478	Attr+{}	XMap	Map	Orig:83.125.8.47:3478		Oth:83.125.8.45:3479		
+83.144.240.111:3478	stun.vnc.biz:3478	Attr+{}	XMap	Map	Orig:172.17.1.142:3478		Oth:172.17.1.142:3479		Software:"Citrix-3.2.3.1 'Marshal West'"
+83.211.9.232:3478	stun.muoversi.net:3478	Attr+{}	XMap	Map		Src:83.211.9.232:3478		Chg:83.211.9.234:3479	Software:"Vovida.org 0.96"
+83.211.9.232:3478	stun.officinabit.com:3478	Attr+{}	XMap	Map		Src:83.211.9.232:3478		Chg:83.211.9.234:3479	Software:"Vovida.org 0.96"
+83.211.9.232:3478	stun.openvoip.it:3478	Attr+{}	XMap	Map		Src:83.211.9.232:3478		Chg:83.211.9.234:3479	Software:"Vovida.org 0.96"
+83.211.9.232:3478	stun.tichiamo.it:3478	Attr+{}	XMap	Map		Src:83.211.9.232:3478		Chg:83.211.9.234:3479	Software:"Vovida.org 0.96"
+83.211.9.232:3478	stun.voip.eutelia.it:3478	Attr+{}	XMap	Map		Src:83.211.9.232:3478		Chg:83.211.9.234:3479	Software:"Vovida.org 0.96"
+83.211.9.232:3478	stun.voipvoice.it:3478	Attr+{}	XMap	Map		Src:83.211.9.232:3478		Chg:83.211.9.234:3479	Software:"Vovida.org 0.96"
+83.235.24.77:3478	stun.viva.gr:3478	Attr+{}	XMap	Map		Src:83.235.24.77:3478		Chg:83.235.24.86:3479	Software:"Vovida.org 0.96"
+84.198.248.217:3478	stun.synergiejobs.be:3478	Attr+{FINGERPRINT }	XMap	Map					
+84.39.99.22:3478	stun.palava.tv:3478	Attr+{}	XMap	Map		Src:84.39.99.22:3478		Chg:84.39.102.52:3479	Software:"Vovida.org 0.97"
+85.10.201.148:3478	stun.kostenloses-forum.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:85.10.201.148:3478		Oth:85.10.201.148:3479		Software:"Coturn-4.5.0.5 'dan Eider'"
+85.17.87.148:3478	stun.acrobits.cz:3478	Attr+{}	XMap	Map		Src:85.17.87.148:3479		Chg:85.17.87.130:3478	Software:"Vovida.org 0.97"
+85.192.44.73:3478	stun.comtube.com:3478	Attr+{}	XMap	Map		Src:85.192.44.73:3478		Chg:192.168.5.11:5060	
+85.192.44.73:3478	stun.comtube.ru:3478	Attr+{}	XMap	Map		Src:85.192.44.73:3478		Chg:192.168.5.11:5060	
+85.214.134.163:3478	stun.aeta-audio.com:3478	Attr+{}	XMap	Map		Src:85.214.134.163:3479		Chg:85.214.119.212:3478	Software:"Vovida.org 0.96"
+85.214.134.163:3478	stun.aeta.com:3478	Attr+{}	XMap	Map		Src:85.214.134.163:3479		Chg:85.214.119.212:3478	Software:"Vovida.org 0.96"
+85.214.57.119:3478	stun.madavi.de:3478	Attr+{}	XMap	Map	Orig:85.214.57.119:3478				Software:"restund v0.4.2 (x86_64/linux)"
+85.93.219.114:3478	stun.tel.lu:3478	Attr+{}	XMap	Map		Src:85.93.219.114:3478		Chg:85.93.219.115:3479	Software:"Vovida.org 0.96"
+85.93.219.114:3478	stun.vo.lu:3478	Attr+{}	XMap	Map		Src:85.93.219.114:3478		Chg:85.93.219.115:3479	Software:"Vovida.org 0.96"
+87.191.18.11:3478	stun.leibergmbh.de:3478	Attr+{}	XMap	Map	Orig:172.16.60.20:3478				Software:"restund v.E6.3.2.2073 ( - / win32 )"
+87.253.140.133:3478	stun.romaaeterna.nl:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:87.253.140.133:3478		Oth:87.253.140.133:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+88.198.151.128:3478	stun.studio-link.de:3478	Attr+{}	XMap	Map	Orig:88.198.151.128:3478				Software:"restund v0.4.12 (x86_64/linux)"
+88.198.203.20:3478	stun.expandable.io:3478	Attr+{}	XMap	Map	Orig:88.198.203.20:3478		Oth:88.198.203.20:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+88.198.203.20:3478	stun.yeymo.com:3478	Attr+{}	XMap	Map	Orig:88.198.203.20:3478		Oth:88.198.203.20:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+88.86.102.51:3478	stun.jabbim.cz:3478	Attr+{}	XMap	Map		Src:88.86.102.51:3478		Chg:88.86.102.52:3479	Software:"Vovida.org 0.96"
+88.86.102.51:3478	stun.net-mag.cz:3478	Attr+{}	XMap	Map		Src:88.86.102.51:3478		Chg:88.86.102.52:3479	Software:"Vovida.org 0.96"
+88.99.67.241:3478	stun.zentauron.de:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:88.99.67.241:3478				Software:"Coturn-4.5.1.1 'dan Eider'"
+89.106.220.34:3478	stun.levigo.de:3478	Attr+{}	XMap	Map		Src:89.106.220.34:3478		Chg:89.106.220.35:3479	Software:"Vovida.org 0.97"
+89.185.235.201:3478	stun.draci.info:3478	Attr+{}	XMap	Map	Orig:89.185.235.201:3478		Oth:89.185.235.201:3479		Software:"Coturn-4.2.1.2 'Monza'"
+89.185.235.201:3478	stun.shy.cz:3478	Attr+{}	XMap	Map	Orig:89.185.235.201:3478		Oth:89.185.235.201:3479		Software:"Coturn-4.2.1.2 'Monza'"
+89.238.65.9:3478	stun.createweb.de:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:89.238.65.9:3478		Oth:89.238.65.9:3479		Software:"None"
+91.121.128.132:3478	stun.lundimatin.fr:3478	Attr+{}	XMap	Map		Src:91.121.128.132:3478		Chg:91.121.128.133:3479	Software:"Vovida.org 0.96"
+91.121.30.149:3478	stun.antisip.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:91.121.30.149:3478		Oth:91.121.30.149:3479		Software:"Coturn-4.5.0.5 'dan Eider'"
+91.121.31.8:3478	stun.ivao.aero:3478	Attr+{}	XMap	Map		Src:91.121.31.8:3478		Chg:178.33.255.98:3479	Software:"Vovida.org 0.96"
+91.121.31.8:3478	stun.ivao.co.uk:3478	Attr+{}	XMap	Map		Src:91.121.31.8:3478		Chg:178.33.255.98:3479	Software:"Vovida.org 0.96"
+91.122.224.102:3478	stun.arkh-edu.ru:3478	Attr+{}		Map		Src:115.79.193.205:59759			
+91.151.52.200:3478	stun.avigora.fr:3478	Attr+{}	XMap	Map	Orig:192.168.5.10:3478		Oth:192.168.5.10:3479		Software:"Citrix-3.0.0.0 'Practical Frost'"
+91.198.189.39:3478	stun.millenniumarts.org:3478	Attr+{}	XMap	Map	Orig:91.198.189.39:3478		Oth:91.198.189.39:3479		Software:"Coturn-4.5.0.8 'dan Eider'"
+91.199.161.149:3478	stun.megatel.si:3478	Attr+{}	XMap	Map		Src:91.199.161.149:3478		Chg:91.199.161.158:3479	Software:"Vovida.org 0.96"
+91.205.60.185:3478	stun.junet.se:3478	Attr+{}	XMap	Map		Src:91.205.60.185:3478		Chg:91.205.60.139:3479	Software:"Vovida.org 0.96"
+91.205.60.185:3478	stun.voicetech.se:3478	Attr+{}	XMap	Map		Src:91.205.60.185:3478		Chg:91.205.60.139:3479	Software:"Vovida.org 0.96"
+91.213.98.56:3478	stun.fmo.de:3478	Attr+{FINGERPRINT }	XMap	Map					
+91.217.201.14:3478	stun.sippeer.dk:3478	Attr+{}	XMap	Map	Orig:91.217.201.14:3478				
+92.222.127.114:3478	stun.mywatson.it:3478	Attr+{}	XMap	Map		Src:92.222.127.114:3478		Chg:92.222.127.116:5060	
+92.63.111.151:3478	stun.trainingspace.online:3478	Attr+{}	XMap	Map	Orig:92.63.111.151:3478				Software:"Coturn-4.5.0.3 'dan Eider'"
+94.136.34.50:3478	stun.nosapps.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:94.136.34.50:3478		Oth:94.136.34.50:3479		Software:"None"
+94.140.180.141:3478	stun.peeters.com:3478	Attr+{FINGERPRINT }	XMap	Map					
+94.228.57.70:3478	stun.swissquote.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:94.228.57.71:3478		Oth:192.168.56.81:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+94.75.247.45:3478	stun.localphone.com:3478	Attr+{}	XMap	Map		Src:94.75.247.45:3478		Chg:172.16.24.135:3479	Software:"Vovida.org 0.96"
+95.110.198.3:3478	stun.mobile-italia.com:3478	Attr+{}	XMap	Map	Orig:95.110.198.3:3478		Oth:95.110.198.3:3479		Software:"Coturn-4.5.0.4 'dan Eider'"
+95.163.107.194:3478	stun.dowlatow.ru:3478	Attr+{}	XMap	Map	Orig:95.163.107.194:3478		Oth:95.163.107.194:3479		Software:"Citrix-3.2.4.5 'Marshal West'"
+95.216.145.84:3478	stun.3wayint.com:3478	Attr+{}	XMap			Src:95.216.145.84:3478		Chg:95.216.176.73:3479	Software:"reTURNServer 1.10.2 (RFC5389)   "
+95.216.78.222:3478	stun.kanojo.de:3478	Attr+{}	XMap	Map	Orig:95.216.78.222:3478				Software:"Coturn-4.5.1.1 'dan Eider'"
+101.200.40.149:3478	stun.vincross.com:3478	Attr+{}	XMap	Map	Orig:192.168.1.41:3478		Oth:192.168.1.41:3479		Software:"Citrix-3.2.5.9 'Marshal West'"
+103.242.182.2:3478	stun.sacko.com.au:3478	Attr+{}	XMap	Map		Src:103.242.182.2:3478		Chg:10.22.20.253:3479	Software:"Vovida.org 0.97"
+104.131.174.103:3478	stun.sketch.io:3478	Attr+{}	XMap	Map	Orig:104.131.174.103:3478		Oth:104.131.174.103:3479		Software:"Citrix-3.2.5.4 'Marshal West'"
+104.236.181.37:3478	stun.samy.pl:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:104.236.181.37:3478		Oth:104.236.181.37:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+104.238.184.174:3478	stun.irishvoip.com:3478	Attr+{}	XMap	Map	Orig:104.238.184.174:3478		Oth:104.238.184.174:3479		Software:"Citrix-3.2.5.9 'Marshal West'"
+108.166.112.88:3478	stun.comrex.com:3478	Attr+{}	XMap	Map		Src:108.166.112.88:3478		Chg:67.207.144.169:3479	Software:"Vovida.org 0.96"
+109.235.234.65:3478	stun.babelforce.com:3478	Attr+{}	XMap	Map		Src:109.235.234.65:3478		Chg:109.235.234.125:3479	Software:"Vovida.org 0.96"
+109.68.96.189:3478	stun.nfon.net:3478	Attr+{}	XMap	Map		Src:109.68.96.189:3478		Chg:109.68.96.190:3479	Software:"Vovida.org 0.96"
+109.69.177.38:3478	stun.gravitel.ru:3478	Attr+{}	XMap	Map	Orig:109.69.177.38:3478				
+111.206.174.2:3478	stun.miwifi.com:3478	Attr+{}	XMap	Map	Orig:111.206.174.2:3478		Oth:111.206.174.3:3479		
+111.230.157.11:3478	stun.var6.cn:3478	Attr+{}	XMap	Map	Orig:172.16.0.10:3478				
+115.126.160.126:3478	stun.nautile.nc:3478	Attr+{}	XMap	Map		Src:115.126.160.126:3479		Chg:115.126.160.26:3478	Software:"Vovida.org 0.96"
+115.28.80.60:3478	stun.sharpbai.com:3478	Attr+{}	XMap	Map	Orig:115.28.80.60:3478				
+121.101.91.194:3478	stun.coffee-sen.com:3478	Attr+{}	XMap	Map	Orig:192.168.0.2:3478		Oth:192.168.0.249:3479		
+121.101.91.194:3478	stun.kitamaebune.com:3478	Attr+{}	XMap	Map	Orig:192.168.0.2:3478		Oth:192.168.0.249:3479		
+122.1.52.171:3478	stun.mot-net.com:3478	Attr+{}		Map		Src:192.168.10.172:3478		Chg:192.168.30.172:3479	
+123.59.41.203:3478	stun.gotye.com.cn:3478	Attr+{}	XMap	Map	Orig:10.10.84.29:3478				Software:"Coturn-4.2.2.2 'Monza'"
+128.243.40.39:3478	stun.nottingham.ac.uk:3478	Attr+{}	XMap	Map		Src:128.243.40.39:3478		Chg:128.243.40.54:3479	Software:"Vovida.org 0.96"
+129.146.140.233:3478	stun.frozenmountain.com:3478	Attr+{}	XMap	Map					
+130.236.12.148:3478	stun.eaclipt.org:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:130.236.12.148:3478		Oth:130.236.12.148:3479		Software:"None"
+130.244.125.91:3478	stun.tele2.net:3478	Attr+{}	XMap	Map		Src:130.244.125.91:3478		Chg:130.244.125.130:3479	Software:"Vovida.org 0.97"
+134.106.11.139:3478	stun.zuckschwerdt.org:3478	Attr+{}	XMap	Map	Orig:134.106.11.139:3478				Software:"Coturn-4.5.1.1 'dan Eider'"
+134.119.17.210:3478	stun.dsin-berufsschulen.de:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:134.119.17.210:3478		Oth:134.119.17.210:3479		Software:"None"
+134.119.17.210:3478	stun.goldener-internetpreis.de:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:134.119.17.210:3478		Oth:134.119.17.210:3479		Software:"None"
+134.2.17.14:3478	stun.symonics.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:134.2.17.14:3478		Oth:134.2.17.14:80		Software:"Coturn-4.5.1.0 'dan Eider'"
+136.243.14.23:3478	stun.hobby-drechselei.de:3478	Attr+{}	XMap	Map	Orig:10.1.3.8:3478		Oth:10.1.3.8:3479		Software:"Coturn-4.5.1.2 'dan Eider'"
+136.243.196.62:3478	stun.nanocosmos.de:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:136.243.196.62:3478		Oth:136.243.196.62:80		Software:"None"
+136.243.202.77:3478	stun.ixc.ua:3478	Attr+{}	XMap	Map	Orig:136.243.202.77:3478		Oth:136.243.202.78:3479		
+136.243.59.79:3478	stun.linuxtrent.it:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:136.243.59.79:3478				Software:"Coturn-4.5.1.1 'dan Eider'"
+136.243.59.79:3478	stun.poetamatusel.org:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:136.243.59.79:3478				Software:"Coturn-4.5.1.1 'dan Eider'"
+137.74.112.113:3478	stun.radiojar.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:137.74.112.113:3478		Oth:137.74.112.113:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+138.201.201.66:3478	stun.bridesbay.com:3478	Attr+{}	XMap	Map	Orig:138.201.201.66:3478		Oth:138.201.201.66:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+138.201.201.66:3478	stun.meetwife.com:3478	Attr+{}	XMap	Map	Orig:138.201.201.66:3478		Oth:138.201.201.66:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+138.201.201.66:3478	stun.ru-brides.com:3478	Attr+{}	XMap	Map	Orig:138.201.201.66:3478		Oth:138.201.201.66:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+138.201.201.66:3478	stun.uabrides.com:3478	Attr+{}	XMap	Map	Orig:138.201.201.66:3478		Oth:138.201.201.66:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+138.201.222.134:3478	stun.godatenow.com:3478	Attr+{}	XMap	Map	Orig:138.201.222.134:3478		Oth:138.201.222.134:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+138.201.222.134:3478	stun.romancecompass.com:3478	Attr+{}	XMap	Map	Orig:138.201.222.134:3478		Oth:138.201.222.134:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+138.201.222.134:3478	stun.vavadating.com:3478	Attr+{}	XMap	Map	Orig:138.201.222.134:3478		Oth:138.201.222.134:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+138.201.222.134:3478	stun.yesdates.com:3478	Attr+{}	XMap	Map	Orig:138.201.222.134:3478		Oth:138.201.222.134:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+138.201.48.241:3478	stun.revreso.de:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:138.201.48.241:3478		Oth:138.201.48.241:3479		Software:"None"
+138.201.70.161:3478	stun.cdosea.org:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:138.201.70.161:3478				Software:"None"
+138.201.70.161:3478	stun.piratecinema.org:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:138.201.70.161:3478				Software:"None"
+138.201.70.161:3478	stun.textz.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:138.201.70.161:3478				Software:"None"
+139.162.62.29:3478	stun.pjsip.org:3478	Attr+{}	XMap	Map		Src:139.162.62.29:3479		Chg:45.118.135.233:3478	Software:"Vovida.org 0.97"
+198.211.120.59:3478	stun.syncthing.net:3478	Attr+{}	XMap	Map	Orig:198.211.120.59:3478		Oth:188.166.128.84:3479		
+141.54.160.48:3478	stun.bau-ha.us:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:141.54.160.48:3478		Oth:141.54.160.48:3479		Software:"None"
+144.217.79.23:3478	stun.logenex.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:144.217.79.23:3478		Oth:144.217.79.23:3479		Software:"Citrix-3.2.5.9 'Marshal West'"
+146.185.186.157:3478	stun.beebeetle.com:3478	Attr+{}	XMap	Map	Orig:146.185.186.157:3478		Oth:146.185.186.157:3479		Software:"Coturn-4.2.1.2 'Monza'"
+146.185.186.157:3478	stun.funwithelectronics.com:3478	Attr+{}	XMap	Map	Orig:146.185.186.157:3478		Oth:146.185.186.157:3479		Software:"Coturn-4.2.1.2 'Monza'"
+148.251.243.162:3478	stun.gigaset.net:3478	Attr+{}	XMap	Map		Src:148.251.243.162:3478		Chg:148.251.243.163:3479	Software:"Vovida.org 0.96"
+148.251.70.50:3478	stun.yangutu.com:3478	Attr+{FINGERPRINT }	XMap						
+149.56.14.164:3478	stun.savemgo.com:3478	Attr+{}	XMap	Map	Orig:149.56.14.164:3478		Oth:142.44.198.240:3479		
+150.254.161.60:3478	stun.medvc.eu:3478	Attr+{}	XMap	Map		Src:150.254.161.60:3478		Chg:150.254.161.48:3479	Software:"Vovida.org 0.97"
+151.236.192.99:3478	stun.kaznpu.kz:3478	Attr+{FINGERPRINT }	XMap						
+51.195.38.184:3478	stun.innovaphone.com:3478	Attr+{FINGERPRINT }	XMap	Map					
+51.195.38.184:3478	stun.innovaphone.de:3478	Attr+{FINGERPRINT }	XMap	Map					
+151.80.27.189:3478	stun.exoplatform.org:3478	Attr+{}	XMap	Map	Orig:151.80.27.189:3478				Software:"None"
+154.73.34.8:3478	stun.uls.co.za:3478	Attr+{}	XMap	Map	Orig:154.73.34.8:3478		Oth:154.73.34.9:3479		
+157.161.10.34:3478	stun.imp.ch:3478	Attr+{}	XMap	Map		Src:157.161.10.34:3479		Chg:157.161.10.35:3478	Software:"Vovida.org 0.96"
+157.161.10.34:3478	stun.streamnow.ch:3478	Attr+{}	XMap	Map		Src:157.161.10.34:3479		Chg:157.161.10.35:3478	Software:"Vovida.org 0.96"
+157.22.130.80:3478	stun.deepfinesse.com:3478	Attr+{}	XMap	Map		Src:157.22.130.80:3478		Chg:157.22.130.81:3479	Software:"Vovida.org 0.96"
+157.240.7.6:3478	stun.fbsbx.com:3478	Attr+{}		Map					
+161.53.1.100:3478	stun.srce.hr:3478	Attr+{}	XMap	Map		Src:161.53.1.100:3478		Chg:161.53.1.101:3479	Software:"Vovida.org 0.97"
+162.243.105.244:3478	stun.aceweb.com:3478	Attr+{}	XMap	Map	Orig:162.243.105.244:3478				
+162.243.29.166:3478	stun.cibercloud.com.br:3478	Attr+{}	XMap	Map	Orig:162.243.29.166:3478		Oth:162.243.29.166:3479		Software:"Coturn-4.4.1.2 'Ardee West'"
+172.105.99.33:3478	stun.moonlight-stream.org:3478	Attr+{}	XMap	Map	Orig:172.105.99.33:3478				
+173.194.199.127:19302	stun2.l.google.com:19302	Attr+{}	XMap						
+173.194.199.127:19305	stun2.l.google.com:19305	Attr+{}	XMap						
+172.253.117.127:19302	stun1.l.google.com:19302	Attr+{}	XMap						
+172.253.117.127:19305	stun1.l.google.com:19305	Attr+{}	XMap						
+173.194.77.127:19302	stun4.l.google.com:19302	Attr+{}	XMap						
+173.194.77.127:19305	stun4.l.google.com:19305	Attr+{}	XMap						
+173.249.21.25:3478	stun.groenewold-newmedia.de:3478	Attr+{}	XMap	Map	Orig:173.249.21.25:3478		Oth:173.249.21.25:3479		Software:"Coturn-4.5.0.3 'dan Eider'"
+173.255.213.166:3478	stun.meowsbox.com:3478	Attr+{}	XMap	Map	Orig:173.255.213.166:3478		Oth:45.56.86.112:3479		
+176.31.207.161:3478	stun.myspeciality.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:176.31.207.161:3478		Oth:176.31.207.161:3479		Software:"Coturn-4.4.2.2 'Ardee West'"
+176.58.99.160:3478	stun.zombiegrinder.com:3478	Attr+{}	XMap	Map		Src:176.58.99.160:3478		Chg:176.58.108.8:3479	Software:"Vovida.org 0.96"
+176.62.31.10:3478	stun.it1.hr:3478	Attr+{}	XMap						Software:"reTURNServer 0.4 - RFC5389/turn-12  "
+176.9.118.85:3478	stun.tula.nu:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:176.9.118.85:3478		Oth:176.9.118.85:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+176.9.118.85:3478	stun.vomessen.de:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:176.9.118.85:3478		Oth:176.9.118.85:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+176.9.136.194:3478	stun.pados.hu:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:176.9.136.194:3478		Oth:176.9.136.194:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+176.9.150.43:3478	stun.club-galicia-bonn.de:3478	Attr+{}	XMap	Map	Orig:176.9.150.43:3478		Oth:176.9.150.43:3479		Software:"Coturn-4.5.0.5 'dan Eider'"
+176.9.179.80:3478	stun.oncloud7.ch:3478	Attr+{}	XMap	Map	Orig:176.9.179.80:3478		Oth:176.9.179.80:3479		Software:"Coturn-4.5.0.5 'dan Eider'"
+176.9.24.184:3478	stun.ringostat.com:3478	Attr+{}	XMap	Map		Src:176.9.24.184:3478		Chg:127.0.0.1:3479	Software:"Vovida.org 0.96"
+176.9.82.164:3478	stun.jabber.dk:3478	Attr+{}	XMap	Map	Orig:176.9.82.164:3478		Oth:176.9.82.164:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+177.66.4.31:3478	stun.leucotron.com.br:3478	Attr+{}	XMap	Map		Src:177.66.4.31:3478		Chg:177.66.4.32:3479	Software:"Vovida.org 0.97"
+178.33.166.29:3478	stun.futurasp.es:3478	Attr+{}	XMap	Map	Orig:178.33.166.29:3478		Oth:91.121.210.25:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+178.63.107.149:3478	stun.openjobs.hu:3478	Attr+{}	XMap			Src:178.63.107.149:3478		Chg:0.0.0.0:5349	Software:"glexTurn"
+178.63.240.148:3478	stun.framasoft.org:3478	Attr+{}	XMap	Map	Orig:178.63.240.148:3478				
+180.235.111.91:3478	stun.url.net.au:3478	Attr+{}	XMap	Map		Src:180.235.111.91:3478		Chg:180.235.111.92:3479	Software:"Vovida.org 0.97"
+182.154.16.5:3478	stun.wxnz.net:3478	Attr+{}	XMap	Map		Src:182.154.16.5:3478		Chg:182.154.16.6:3479	Software:"Vovida.org 0.97"
+183.36.123.211:3478	stun.yy.com:3478	Attr+{}	XMap	Map					
+184.105.229.56:3478	stun.instantteleseminar.com:3478	Attr+{FINGERPRINT }	XMap						
+185.112.247.26:3478	stun.goldfish.ie:3478	Attr+{}	XMap	Map		Src:185.112.247.26:3478		Chg:185.112.247.44:3479	Software:"Vovida.org 0.97"
+185.112.247.26:3478	stun.soho66.co.uk:3478	Attr+{}	XMap	Map		Src:185.112.247.26:3478		Chg:185.112.247.44:3479	Software:"Vovida.org 0.97"
+185.140.24.140:3478	stun.easycall.pl:3478	Attr+{}	XMap	Map		Src:185.140.24.140:3478		Chg:10.0.3.6:3479	Software:"Vovida.org 0.96"
+185.158.144.41:3478	stun.redworks.nl:3478	Attr+{}	XMap	Map	Orig:185.158.144.41:3478				
+185.207.105.125:3478	stun.sokoll.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:185.207.105.125:3478		Oth:185.207.105.125:3479		Software:"None"
+185.244.192.220:3478	stun.hardt-ware.de:3478	Attr+{FINGERPRINT }	XMap						
+185.39.86.17:3478	stun.rockenstein.de:3478	Attr+{}	XMap	Map		Src:185.39.86.17:3478		Chg:185.39.86.18:3479	Software:"Vovida.org 0.96"
+185.39.86.17:3478	stun.stadtwerke-eutin.de:3478	Attr+{}	XMap	Map		Src:185.39.86.17:3478		Chg:185.39.86.18:3479	Software:"Vovida.org 0.96"
+185.39.86.17:3478	stun.swrag.de:3478	Attr+{}	XMap	Map		Src:185.39.86.17:3478		Chg:185.39.86.18:3479	Software:"Vovida.org 0.96"
+185.39.86.17:3478	stun.wemag.com:3478	Attr+{}	XMap	Map		Src:185.39.86.17:3478		Chg:185.39.86.18:3479	Software:"Vovida.org 0.96"
+185.41.24.10:3478	stun.elitetele.com:3478	Attr+{}	XMap	Map	Orig:10.68.5.30:3478				
+185.45.152.22:3478	stun.zadarma.com:3478	Attr+{}	XMap	Map		Src:185.45.152.22:3478		Chg:127.0.0.1:3479	Software:"Vovida.org 0.96"
+185.67.224.58:3478	stun.axeos.nl:3478	Attr+{}	XMap	Map	Orig:185.67.224.58:3478		Oth:185.67.224.59:3479		
+212.103.68.8:3478	stun.threema.ch:3478	Attr+{}	XMap	Map	Orig:212.103.68.8:3478		Oth:212.103.68.8:53		Software:"None"
+188.118.52.172:3478	stun.eurosys.be:3478	Attr+{FINGERPRINT }	XMap	Map					
+188.123.97.201:3478	stun.imafex.sk:3478	Attr+{}	XMap	Map		Src:188.123.97.201:3478		Chg:188.123.97.202:3479	Software:"Vovida.org 0.97"
+188.64.120.28:3478	stun.eleusi.com:3478	Attr+{}	XMap	Map		Src:188.64.120.28:3478		Chg:188.64.120.27:5060	
+188.68.43.182:3478	stun.dreifaltigkeit-stralsund.de:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:188.68.43.182:3478		Oth:188.68.43.182:3479		Software:"None"
+188.68.43.182:3478	stun.katholischekirche-ruegen.de:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:188.68.43.182:3478		Oth:188.68.43.182:3479		Software:"None"
+188.68.50.215:3478	stun.dukun.de:3478	Attr+{}	XMap	Map	Orig:188.68.50.215:3478				
+192.162.9.94:3478	stun.thfree.ru:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:192.168.9.22:3478				Software:"Coturn-4.2.1.2 'Monza'"
+192.172.233.145:3478	stun.voipia.net:3478	Attr+{}	XMap	Map	Orig:192.172.233.145:3478		Oth:192.172.233.146:3479		Software:"None"
+192.76.120.66:3478	stun.telnyx.com:3478	Attr+{}	XMap	Map	Orig:192.76.120.66:3478		Oth:64.16.250.34:3479		Software:"Coturn-4.5.0.5 'dan Eider'"
+192.95.17.62:3478	stun.callwithus.com:3478	Attr+{}	XMap	Map		Src:192.95.17.62:3478		Chg:158.69.27.166:3479	Software:"Vovida.org 0.96"
+192.99.194.90:3478	stun.webmatrix.com.br:3478	Attr+{}	XMap	Map		Src:192.99.194.90:3478		Chg:192.99.194.91:3479	Software:"Vovida.org 0.96"
+193.111.26.30:3478	stun.rmf.pl:3478	Attr+{}	XMap	Map		Src:193.111.26.30:3478		Chg:193.111.26.29:3479	Software:"Vovida.org 0.96"
+193.16.148.245:3478	stun.next-gen.ro:3478	Attr+{}	XMap	Map		Src:193.16.148.245:3478		Chg:193.16.148.244:3479	Software:"Vovida.org 0.96"
+193.169.179.138:3478	stun.smdr.ru:3478	Attr+{}	XMap						Software:"reTURNServer 1.10.2 (RFC5389)   "
+193.22.119.20:3478	stun.voztele.com:3478	Attr+{}	XMap	Map		Src:193.22.119.20:3478		Chg:193.22.119.3:3479	Software:"Vovida.org 0.97"
+193.22.17.97:3478	stun.bitburger.de:3478	Attr+{FINGERPRINT }	XMap	Map					
+193.22.2.248:3478	stun.alphacron.de:3478	Attr+{}	XMap	Map		Src:193.22.2.248:3478		Chg:193.22.2.249:3479	Software:"Vovida.org 0.96"
+193.238.136.219:3478	stun.interplanet.it:3478	Attr+{}	XMap	Map		Src:193.238.136.219:3478		Chg:193.238.136.220:3479	Software:"Vovida.org 0.96"
+193.28.184.4:3478	stun.ipshka.com:3478	Attr+{}	XMap	Map		Src:193.28.184.4:3478		Chg:193.28.184.130:3479	Software:"Vovida.org 0.96"
+193.30.122.153:3478	stun.webfreak.org:3478	Attr+{}	XMap	Map	Orig:193.30.122.153:3478		Oth:193.30.122.153:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+193.43.148.37:3478	stun.halonet.pl:3478	Attr+{}	XMap	Map		Src:193.43.148.37:3478		Chg:193.43.148.38:3479	Software:"Vovida.org 0.96"
+194.140.246.192:3478	stun.gntel.nl:3478	Attr+{}	XMap	Map	Orig:194.140.246.192:3478		Oth:91.215.4.139:3479		Software:"Coturn-4.5.0.5 'dan Eider'"
+194.140.246.192:3478	stun.voipxs.nl:3478	Attr+{}	XMap	Map	Orig:194.140.246.192:3478		Oth:91.215.4.139:3479		Software:"Coturn-4.5.0.5 'dan Eider'"
+194.149.72.133:3478	stun.lleida.net:3478	Attr+{}	XMap	Map	Orig:194.149.72.133:3478				
+194.169.214.30:3478	stun.ippi.com:3478	Attr+{}	XMap	Map		Src:194.169.214.30:3478		Chg:194.169.214.22:5060	
+194.169.214.30:3478	stun.ippi.fr:3478	Attr+{}	XMap	Map		Src:194.169.214.30:3478		Chg:194.169.214.22:5060	
+194.187.168.70:3478	stun.qwant.com:3478	Attr+{}	XMap	Map	Orig:194.187.168.70:3478				Software:"Coturn-4.5.0.5 'dan Eider'"
+194.192.21.148:3478	stun.nabto.com:3478	Attr+{}	XMap	Map		Src:194.192.21.148:3478		Chg:195.249.159.131:3479	Software:"Vovida.org 0.96"
+194.228.200.158:3478	stun.osbid.cz:3478	Attr+{}	XMap	Map		Src:194.228.200.158:3478		Chg:127.0.0.1:3479	Software:"Vovida.org 0.96"
+194.87.0.22:3478	stun.demos.ru:3478	Attr+{}	XMap	Map		Src:194.87.0.22:3478		Chg:194.87.0.11:3479	Software:"Vovida.org 0.96"
+194.87.0.22:3478	stun.demos.su:3478	Attr+{}	XMap	Map		Src:194.87.0.22:3478		Chg:194.87.0.11:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.acquageraci.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.autosystem.com:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.barbaratabita.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.bernardoprovenzano.net:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.carlovizzini.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.ctafauni.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.fondazioneroccochinnici.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.hotelparadisebeach.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.istitutogramscisiciliano.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.ladridiricette.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.leonde.org:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.marcelproust.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.neomedia.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.ortopediacoam.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.parcodeinebrodi.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.studio71.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.surjaring.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.thebrassgroup.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.uiltucssicilia.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.villapalagonia.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.120.250.50:3478	stun.waterpolopalermo.it:3478	Attr+{}	XMap	Map		Src:195.120.250.50:3478		Chg:195.103.207.16:3479	Software:"Vovida.org 0.96"
+195.145.93.141:3478	stun.baltmannsweiler.de:3478	Attr+{FINGERPRINT }	XMap	Map					
+195.208.107.138:3478	stun.fitauto.ru:3478	Attr+{}	XMap	Map	Orig:195.208.107.138:3478		Oth:195.208.107.140:3479		Software:"Coturn-4.5.0.5 'dan Eider'"
+195.209.116.72:3478	stun.taxsee.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:195.209.116.72:3478		Oth:195.209.116.73:3479		Software:"Coturn-4.5.1.0 'dan Eider'"
+195.211.238.18:3478	stun.shadrinsk.net:3478	Attr+{}	XMap			Src:195.211.238.18:3478		Chg:195.211.238.18:3478	Software:"reTURNServer 1.10.2 (RFC5389)   "
+195.242.206.1:3478	stun.infra.net:3478	Attr+{}	XMap	Map		Src:195.242.206.1:3478		Chg:195.242.206.28:3479	Software:"Vovida.org 0.96"
+195.254.254.20:3478	stun.rolmail.net:3478	Attr+{}	XMap	Map		Src:195.254.254.20:3478		Chg:195.254.254.4:3479	Software:"Vovida.org 0.96"
+195.35.114.36:3478	stun.voipgrid.nl:3478	Attr+{}	XMap	Map	Orig:195.35.114.36:3478		Oth:195.35.114.36:3479		Software:"Coturn-4.5.1.0 'dan Eider'"
+195.35.115.36:3478	stun.voys.nl:3478	Attr+{}	XMap	Map	Orig:195.35.115.36:3478		Oth:195.35.115.36:3479		Software:"Coturn-4.5.1.0 'dan Eider'"
+195.42.181.37:3478	stun.pobeda-club.ru:3478	Attr+{FINGERPRINT }	XMap						
+195.42.181.37:3478	stun.rudtp.ru:3478	Attr+{FINGERPRINT }	XMap						
+197.155.250.156:3478	stun.telviva.com:3478	Attr+{}	XMap	Map	Orig:197.155.250.156:3478				Software:"Coturn-4.5.0.3 'dan Eider'"
+198.100.144.121:3478	stun.heeds.eu:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:198.100.144.121:3478		Oth:198.100.144.121:3479		Software:"Coturn-4.5.0.5 'dan Eider'"
+198.199.88.224:3478	stun.cozy.org:3478	Attr+{}	XMap	Map	Orig:198.199.88.224:3478				Software:"Citrix-3.2.3.5 'Marshal West'"
+108.171.179.113:3478	stun.connecteddata.com:3478	Attr+{}	XMap	Map	Orig:108.171.179.113:3478		Oth:108.171.184.253:3479		
+198.72.119.88:3478	stun.planetarium.com.br:3478	Attr+{}		Map		Src:198.72.119.88:3478		Chg:174.142.112.94:3479	
+199.114.221.40:3478	stun.scalix.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:199.114.221.40:3478		Oth:199.114.221.41:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+199.187.131.16:3478	stun.dincloud.com:3478	Attr+{}	XMap	Map		Src:199.187.131.16:3478		Chg:0.0.0.0:3479	Software:"Vovida.org 0.96"
+199.4.110.11:3478	stun.cellmail.com:3478	Attr+{}	XMap						Software:"reTURNServer (RFC5389)  "
+200.152.96.204:3478	stun.mls.com.br:3478	Attr+{FINGERPRINT }	XMap						Software:"TurnServer 0.7.3"
+201.49.153.227:3478	stun.cnj.gov.br:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:201.49.153.227:3478		Oth:201.49.153.227:3479		Software:"Coturn-4.2.1.2 'Monza'"
+201.49.153.228:3478	stun.cnj.jus.br:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:201.49.153.228:3478		Oth:201.49.153.228:3479		Software:"Coturn-4.2.1.2 'Monza'"
+202.32.176.30:3478	stun.a-mm.tv:3478	Attr+{}	XMap			Src:172.16.15.202:3478		Chg:172.16.15.203:3479	Software:"reTURNServer 0.4 - RFC5389/turn-12  "
+202.49.164.50:3478	stun.eol.co.nz:3478	Attr+{}	XMap	Map		Src:202.49.164.50:3478		Chg:202.49.164.49:3479	Software:"Vovida.org 0.96"
+203.13.68.16:3478	stun.onthenet.com.au:3478	Attr+{}	XMap	Map	Orig:203.13.68.16:3478				
+203.189.26.131:3478	stun.yollacalls.com:3478	Attr+{}	XMap	Map		Src:0.0.0.0:3478		Chg:0.0.0.0:0	Software:"oRTP   0.99"
+203.20.110.2:3478	stun.isp.net.au:3478	Attr+{}	XMap						Software:"reTURNServer 0.4 - RFC5389/turn-12  "
+203.75.129.33:3478	stun.hinet.net:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:203.75.129.33:3478				Software:"None"
+204.197.159.2:3478	stun.labs.net:3478	Attr+{}	XMap	Map	Orig:204.197.159.2:3478		Oth:204.197.159.2:3479		Software:"Coturn-4.5.0.5 'dan Eider'"
+206.53.159.130:3478	stun.voip.blackberry.com:3478	Attr+{}	XMap	Map	Orig:206.53.159.130:3478		Oth:206.53.159.131:3479		Software:"Citrix-3.2.3.1 'Marshal West'"
+207.38.89.164:3478	stun.optdyn.com:3478	Attr+{}	XMap	Map	Orig:207.38.89.164:3478				
+208.83.246.100:3478	stun.ooma.com:3478	Attr+{}	XMap	Map		Src:208.83.246.100:3480		Chg:0.0.0.0:3478	Software:"Vovida.org 0.96"
+208.83.61.2:3478	stun.rackco.com:3478	Attr+{}	XMap	Map		Src:208.83.61.2:3478		Chg:208.83.61.3:3479	Software:"Vovida.org 0.96"
+209.105.241.31:3478	stun.1-voip.com:3478	Attr+{}	XMap	Map		Src:209.105.241.31:3478		Chg:209.105.241.32:3479	Software:"Vovida.org 0.97"
+209.177.158.159:3478	stun.sipglobalphone.com:3478	Attr+{}	XMap	Map		Src:209.177.158.159:3478		Chg:127.0.0.1:3479	Software:"Vovida.org 0.96"
+209.242.17.106:3478	stun.dls.net:3478	Attr+{}	XMap	Map	Orig:209.242.17.106:3478		Oth:209.242.17.107:3479		
+209.250.250.224:3478	stun.hide.me:3478	Attr+{}	XMap	Map		Src:209.250.250.224:3478		Chg:209.250.247.151:3479	Software:"Vovida.org 0.97"
+209.251.63.76:3478	stun.diallog.com:3478	Attr+{}	XMap	Map	Orig:209.251.63.76:3478		Oth:192.168.10.239:3479		Software:"Coturn-4.5.0.4 'dan Eider'"
+212.101.4.120:3478	stun.solnet.ch:3478	Attr+{}	XMap	Map		Src:212.101.4.120:3478		Chg:212.101.4.6:3479	Software:"Vovida.org 0.96"
+212.103.200.6:3478	stun.trivenet.it:3478	Attr+{}	XMap	Map		Src:212.103.200.6:3478		Chg:212.103.200.3:3479	Software:"Vovida.org 0.96"
+212.144.246.197:3478	stun.ukh.de:3478	Attr+{FINGERPRINT }	XMap	Map					
+212.18.0.14:3478	stun.m-online.net:3478	Attr+{}	XMap	Map	Orig:212.18.0.14:3478		Oth:62.245.150.225:3479		
+212.204.93.217:3478	stun.guenzburg.de:3478	Attr+{}	XMap	Map	Orig:192.168.1.234:3478				Software:"restund v.E6.2.1.1159 ( - / win32 )"
+212.211.179.42:3478	stun.schoeffel.de:3478	Attr+{}	XMap	Map	Orig:10.0.7.30:3478				Software:"restund v.E6.2.5.1575 ( - / win32 )"
+212.227.28.202:3478	stun.chaosmos.de:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:212.227.28.202:3478		Oth:212.227.28.202:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+212.227.67.33:3478	iphone-stun.strato-iphone.de:3478	Attr+{}	XMap	Map		Src:212.227.67.33:3478		Chg:212.227.67.34:3479	Software:"Vovida.org 0.97"
+212.227.67.34:3478	stun.callromania.ro:3478	Attr+{}	XMap	Map		Src:212.227.67.34:3479		Chg:212.227.67.33:3478	Software:"Vovida.org 0.97"
+212.227.67.33:3478	stun.selasky.org:3478	Attr+{}	XMap	Map		Src:212.227.67.33:3478		Chg:212.227.67.34:3479	Software:"Vovida.org 0.97"
+212.227.67.34:3478	stun.1und1.de:3478	Attr+{}	XMap	Map		Src:212.227.67.34:3479		Chg:212.227.67.33:3478	Software:"Vovida.org 0.97"
+212.227.67.34:3478	stun.geonet.ro:3478	Attr+{}	XMap	Map		Src:212.227.67.34:3479		Chg:212.227.67.33:3478	Software:"Vovida.org 0.97"
+212.227.67.34:3478	stun.gmx.de:3478	Attr+{}	XMap	Map		Src:212.227.67.34:3479		Chg:212.227.67.33:3478	Software:"Vovida.org 0.97"
+212.227.67.34:3478	stun.gmx.net:3478	Attr+{}	XMap	Map		Src:212.227.67.34:3479		Chg:212.227.67.33:3478	Software:"Vovida.org 0.97"
+212.227.67.34:3478	stun.magyarphone.eu:3478	Attr+{}	XMap	Map		Src:212.227.67.34:3479		Chg:212.227.67.33:3478	Software:"Vovida.org 0.97"
+212.227.67.34:3478	stun.schlund.de:3478	Attr+{}	XMap	Map		Src:212.227.67.34:3479		Chg:212.227.67.33:3478	Software:"Vovida.org 0.97"
+212.230.32.233:3478	stun.xtratelecom.es:3478	Attr+{}	XMap	Map		Src:212.230.32.233:3478		Chg:212.230.32.243:3479	Software:"Vovida.org 0.96"
+212.25.7.87:3478	stun.nexphone.ch:3478	Attr+{}	XMap	Map		Src:212.25.7.87:3478		Chg:212.25.7.88:3479	Software:"Vovida.org 0.96"
+212.29.18.56:3478	stun.teamfon.de:3478	Attr+{}	XMap	Map	Orig:212.29.18.56:3478		Oth:212.29.18.57:3479		
+212.29.41.240:3478	stun.dokom.net:3478	Attr+{}	XMap	Map		Src:212.29.41.240:3478		Chg:212.29.41.241:3479	Software:"Vovida.org 0.96"
+212.45.38.40:3478	stun.solcon.nl:3478	Attr+{}	XMap						
+212.53.40.40:3478	stun.1cbit.ru:3478	Attr+{FINGERPRINT }	XMap						
+212.53.40.40:3478	stun.sipnet.com:3478	Attr+{FINGERPRINT }	XMap						
+212.53.40.40:3478	stun.sipnet.net:3478	Attr+{FINGERPRINT }	XMap						
+212.53.40.40:3478	stun.sipnet.ru:3478	Attr+{FINGERPRINT }	XMap						
+212.53.40.40:3478	stun.zepter.ru:3478	Attr+{FINGERPRINT }	XMap						
+212.80.226.18:3478	stun.graftlab.com:3478	Attr+{FINGERPRINT }	XMap	Map					
+213.136.74.244:3478	stun.zottel.net:3478	Attr+{}	XMap	Map	Orig:213.136.74.244:3478		Oth:213.136.74.244:3479		Software:"Coturn-4.5.1.1 'dan Eider'"
+213.140.209.236:3478	stun.cablenet-as.net:3478	Attr+{}	XMap	Map		Src:213.140.209.236:3478		Chg:213.140.209.237:3479	Software:"Vovida.org 0.96"
+213.144.15.144:3478	stun.realgarant.com:3478	Attr+{FINGERPRINT }	XMap	Map					
+213.157.4.53:3478	stun.kreis-bergstrasse.de:3478	Attr+{}	XMap	Map	Orig:10.27.2.128:3478				Software:"restund v.E6.4.1.2459 ( - / win32 )"
+213.178.196.92:3478	stun.telemar.it:3478	Attr+{FINGERPRINT }	XMap	Map					
+213.185.165.115:3478	stun.fairytel.at:3478	Attr+{}	XMap	Map		Src:213.185.165.115:3478		Chg:213.185.165.116:3479	Software:"Vovida.org 0.97"
+213.203.205.244:3478	stun.nextcloud.com:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:213.203.205.244:3478		Oth:213.203.205.245:443		Software:"Coturn-4.5.0.3 'dan Eider'"
+213.203.205.244:3478	stun.spreed.me:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:213.203.205.244:3478		Oth:213.203.205.245:443		Software:"Coturn-4.5.0.3 'dan Eider'"
+213.208.129.68:3478	stun.visocon.com:3478	Attr+{}	XMap	Map	Orig:172.17.0.1:3478		Oth:172.17.0.1:3479		Software:"Citrix-3.2.3.8 'Marshal West'"
+213.239.206.5:3478	stun.piratenbrandenburg.de:3478	Attr+{}	XMap	Map	Orig:213.239.206.5:3478				Software:"Coturn-4.5.1.1 'dan Eider'"
+213.239.212.105:3478	stun.files.fm:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:213.239.212.105:3478				Software:"Coturn-4.5.0.8 'dan Eider'"
+213.251.48.147:3478	stun.cope.es:3478	Attr+{}	XMap	Map	Orig:213.251.48.147:3478				
+213.32.33.155:3478	stun.bimp.fr:3478	Attr+{FINGERPRINT }	XMap	Map	Orig:213.32.33.155:3478				Software:"Coturn-4.5.0.5 'dan Eider'"
+216.144.89.2:3478	stun.logic.ky:3478	Attr+{}		Map		Src:216.144.89.2:3478		Chg:216.144.89.3:3482	
+216.144.89.2:3478	stun.westtel.ky:3478	Attr+{}		Map		Src:216.144.89.2:3478		Chg:216.144.89.3:3482	
+216.190.232.121:3478	stun.nstelcom.com:3478	Attr+{}	XMap	Map		Src:216.190.232.121:3478		Chg:70.102.98.103:3479	Software:"Vovida.org 0.96"
+216.228.192.76:3478	stun.eoni.com:3478	Attr+{}	XMap	Map		Src:216.228.192.76:3478		Chg:216.228.192.77:3479	Software:"Vovida.org 0.97"
+77.72.169.211:3478	stun.12connect.com:3478	Attr+{}		Map		Src:77.72.169.211:3478		Chg:77.72.169.210:3479	
+216.93.246.18:3478	stun.5sn.com:3478	Attr+{}	XMap	Map		Src:216.93.246.18:3478		Chg:216.93.246.15:3479	Software:"Vovida.org 0.98-CPC"
+216.93.246.18:3478	stun.alberon.cz:3478	Attr+{}	XMap	Map		Src:216.93.246.18:3478		Chg:216.93.246.15:3479	Software:"Vovida.org 0.98-CPC"
+216.93.246.18:3478	stun.avoxi.com:3478	Attr+{}	XMap	Map		Src:216.93.246.18:3478		Chg:216.93.246.15:3479	Software:"Vovida.org 0.98-CPC"
+216.93.246.18:3478	stun.counterpath.com:3478	Attr+{}	XMap	Map		Src:216.93.246.18:3478		Chg:216.93.246.15:3479	Software:"Vovida.org 0.98-CPC"
+216.93.246.18:3478	stun.counterpath.net:3478	Attr+{}	XMap	Map		Src:216.93.246.18:3478		Chg:216.93.246.15:3479	Software:"Vovida.org 0.98-CPC"
+216.93.246.18:3478	stun.ekiga.net:3478	Attr+{}	XMap	Map		Src:216.93.246.18:3478		Chg:216.93.246.15:3479	Software:"Vovida.org 0.98-CPC"
+216.93.246.18:3478	stun.fixup.net:3478	Attr+{}	XMap	Map		Src:216.93.246.18:3478		Chg:216.93.246.15:3479	Software:"Vovida.org 0.98-CPC"
+216.93.246.18:3478	stun.freeswitch.org:3478	Attr+{}	XMap	Map		Src:216.93.246.18:3478		Chg:216.93.246.15:3479	Software:"Vovida.org 0.98-CPC"
+216.93.246.18:3478	stun.hanacke.net:3478	Attr+{}	XMap	Map		Src:216.93.246.18:3478		Chg:216.93.246.15:3479	Software:"Vovida.org 0.98-CPC"
+216.93.246.18:3478	stun.modulus.gr:3478	Attr+{}	XMap	Map		Src:216.93.246.18:3478		Chg:216.93.246.15:3479	Software:"Vovida.org 0.98-CPC"
+217.10.68.152:3478	stun.pure-ip.com:3478	Attr+{}	XMap	Map		Src:217.10.68.152:3478		Chg:217.116.122.138:3479	Software:"Vovida.org 0.96"
+216.93.246.18:3478	stun.sigmavoip.com:3478	Attr+{}	XMap	Map		Src:216.93.246.18:3478		Chg:216.93.246.15:3479	Software:"Vovida.org 0.98-CPC"
+216.93.246.18:3478	stun.voipstreet.com:3478	Attr+{}	XMap	Map		Src:216.93.246.18:3478		Chg:216.93.246.15:3479	Software:"Vovida.org 0.98-CPC"
+216.93.246.18:3478	stun.xten.com:3478	Attr+{}	XMap	Map		Src:216.93.246.18:3478		Chg:216.93.246.15:3479	Software:"Vovida.org 0.98-CPC"
+217.0.0.143:3478	stun.t-online.de:3478	Attr+{}		Map		Src:217.0.0.143:3478		Chg:217.0.0.158:3479	
+217.10.68.152:10000	stun.sipgate.net:10000	Attr+{}	XMap	Map		Src:217.10.68.152:10000		Chg:217.116.122.138:10001	Software:"Vovida.org 0.96"
+217.10.68.152:3478	stun.siplogin.de:3478	Attr+{}	XMap	Map		Src:217.10.68.152:3478		Chg:217.116.122.138:3479	Software:"Vovida.org 0.96"
+217.10.68.152:3478	stun.clickphone.ro:3478	Attr+{}	XMap	Map		Src:217.10.68.152:3478		Chg:217.116.122.138:3479	Software:"Vovida.org 0.96"
+217.10.68.145:3478	stun.hosteurope.de:3478	Attr+{}	XMap	Map		Src:217.10.68.145:3478		Chg:217.116.122.143:3479	Software:"Vovida.org 0.96"
+217.10.68.152:3478	stun.londonweb.net:3478	Attr+{}	XMap	Map		Src:217.10.68.152:3478		Chg:217.116.122.138:3479	Software:"Vovida.org 0.96"
+217.10.68.152:3478	stun.mixvoip.com:3478	Attr+{}	XMap	Map		Src:217.10.68.152:3478		Chg:217.116.122.138:3479	Software:"Vovida.org 0.96"
+217.10.68.152:3478	stun.myhowto.org:3478	Attr+{}	XMap	Map		Src:217.10.68.152:3478		Chg:217.116.122.138:3479	Software:"Vovida.org 0.96"
+217.10.68.152:3478	stun.odr.de:3478	Attr+{}	XMap	Map		Src:217.10.68.152:3478		Chg:217.116.122.138:3479	Software:"Vovida.org 0.96"
+217.10.68.145:3478	stun.sipgate.net:3478	Attr+{}	XMap	Map		Src:217.10.68.145:3478		Chg:217.116.122.143:3479	Software:"Vovida.org 0.96"
+217.119.210.45:3478	stun.komsa.de:3478	Attr+{}	XMap	Map	Orig:10.10.1.45:3478				Software:"restund v.E6.4.0.2264 ( - / win32 )"
+217.146.224.39:3478	stun.axialys.net:3478	Attr+{}	XMap	Map		Src:217.146.224.39:3478		Chg:217.146.224.15:3479	Software:"Vovida.org 0.96"
+217.19.174.42:3478	stun.siedle.com:3478	Attr+{}	XMap			Src:217.19.174.42:3478		Chg:217.19.174.41:3478	Software:"""  "
+217.19.216.178:3478	stun.kedr.io:3478	Attr+{}	XMap	Map	Orig:217.19.216.178:3478		Oth:217.19.216.178:3479		Software:"None"
+217.74.179.29:3478	stun.bluesip.net:3478	Attr+{}	XMap	Map	Orig:217.74.179.29:3478		Oth:217.74.179.59:3479		
+217.9.216.41:3478	stun.lindab.com:3478	Attr+{FINGERPRINT }	XMap	Map					
+217.91.243.229:3478	stun.3deluxe.de:3478	Attr+{FINGERPRINT }	XMap	Map					
+217.92.89.8:3478	stun.steinbeis-smi.de:3478	Attr+{FINGERPRINT }	XMap	Map					

@@ -1,0 +1,14 @@
+github.com/bixycler/stun v0.3.7 h1:zscOwa2UD8s69XneFksZDKYfasRktDRIv6Ca40z4Svs=
+github.com/bixycler/stun v0.3.7/go.mod h1:Trzs5KCHJECjZuZ0oEKBImu/mmacOYQHppOuyWh4NOQ=
+github.com/bixycler/stun v0.3.8 h1:dQiH0mNA7Q+RnsMl1j3FHNOu9StrugAgIThY1LdJUag=
+github.com/bixycler/stun v0.3.8/go.mod h1:Trzs5KCHJECjZuZ0oEKBImu/mmacOYQHppOuyWh4NOQ=
+github.com/bixycler/stun v0.3.9 h1:SH4nY7ah+f+q2srv28rTOYJ2z+L6IfUuActyM3ffpiE=
+github.com/bixycler/stun v0.3.9/go.mod h1:Trzs5KCHJECjZuZ0oEKBImu/mmacOYQHppOuyWh4NOQ=
+github.com/bixycler/stun v0.3.10 h1:dD+k5jZ0TfGMwuhgNEQcvboTCQ5Geou81TkzlJIRhkA=
+github.com/bixycler/stun v0.3.10/go.mod h1:Trzs5KCHJECjZuZ0oEKBImu/mmacOYQHppOuyWh4NOQ=
+github.com/bixycler/stun v0.3.11 h1:/8503s3o0NCpLPJ3Uyk1erP3MM19zQJsLQJUuVpu2vI=
+github.com/bixycler/stun v0.3.11/go.mod h1:Trzs5KCHJECjZuZ0oEKBImu/mmacOYQHppOuyWh4NOQ=
+github.com/pion/stun v0.3.5 h1:uLUCBCkQby4S1cf6CGuR9QrVOKcvUwFeemaC865QHDg=
+github.com/pion/stun v0.3.5/go.mod h1:gDMim+47EeEtfWogA37n6qXZS88L5V6LqFcf+DZA2UA=
+gortc.io/stun v1.22.2 h1:pDsirGr1eAX0qU4UsnI/DGtyOy38cTZgcX5Iamn/kSk=
+gortc.io/stun v1.22.2/go.mod h1:XD5lpONVyjvV3BgOyJFNo0iv6R2oZB4L+weMqxts+zg=

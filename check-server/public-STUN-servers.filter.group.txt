@@ -1,0 +1,275 @@
+#77.72.169.{210,212}:3478	(stun.actionvoip.com)[comnet.nl]	77.72.169.{211,213}:3479
+77.72.169.210:3478	stun.actionvoip.com:3478		Map		Src		Chg	
+77.72.169.210:3478	stun.botonakis.com:3478		Map		Src		Chg	
+77.72.169.210:3478	stun.cheapvoip.com:3478		Map		Src		Chg	
+77.72.169.210:3478	stun.freecall.com:3478		Map		Src		Chg	
+77.72.169.210:3478	stun.siptraffic.com:3478		Map		Src		Chg	
+77.72.169.210:3478	stun.smartvoip.com:3478		Map		Src		Chg	
+77.72.169.210:3478	stun.voipbuster.com:3478		Map		Src		Chg	
+77.72.169.210:3478	stun.voipcheap.com:3478		Map		Src		Chg	
+77.72.169.210:3478	stun.voipfibre.com:3478		Map		Src		Chg	
+77.72.169.210:3478	stun.voipinfocenter.com:3478		Map		Src		Chg	
+77.72.169.210:3478	stun.voippro.com:3478		Map		Src		Chg	
+77.72.169.210:3478	stun.voipraider.com:3478		Map		Src		Chg	
+77.72.169.210:3478	stun.voipstunt.com:3478		Map		Src		Chg	
+77.72.169.211:3478	stun.easyvoip.com:3478		Map		Src		Chg	
+77.72.169.211:3478	stun.ideasip.com:3478		Map		Src		Chg	
+77.72.169.211:3478	stun.internetcalls.com:3478		Map		Src		Chg	
+77.72.169.211:3478	stun.jumblo.com:3478		Map		Src		Chg	
+77.72.169.211:3478	stun.liveo.fr:3478		Map		Src		Chg	
+77.72.169.211:3478	stun.talkho.com:3478		Map		Src		Chg	
+77.72.169.211:3478	stun.telbo.com:3478		Map		Src		Chg	
+77.72.169.211:3478	stun.voipconnect.com:3478		Map		Src		Chg	
+77.72.169.211:3478	stun.voipgain.com:3478		Map		Src		Chg	
+77.72.169.211:3478	stun.voipwise.com:3478		Map		Src		Chg	
+77.72.169.211:3478	stun.voipzoom.com:3478		Map		Src		Chg	
+77.72.169.212:3478	stun.12voip.com:3478		Map		Src		Chg	
+77.72.169.212:3478	stun.freevoipdeal.com:3478		Map		Src		Chg	
+77.72.169.212:3478	stun.justvoip.com:3478		Map		Src		Chg	
+77.72.169.212:3478	stun.kotter.net:3478		Map		Src		Chg	
+77.72.169.212:3478	stun.myvoiptraffic.com:3478		Map		Src		Chg	
+77.72.169.212:3478	stun.poivy.com:3478		Map		Src		Chg	
+77.72.169.212:3478	stun.smslisto.com:3478		Map		Src		Chg	
+77.72.169.212:3478	stun.sparvoip.de:3478		Map		Src		Chg	
+77.72.169.212:3478	stun.voiparound.com:3478		Map		Src		Chg	
+77.72.169.212:3478	stun.voipblast.com:3478		Map		Src		Chg	
+77.72.169.213:3478	stun.budgetsip.com:3478		Map		Src		Chg	
+77.72.169.213:3478	stun.intervoip.com:3478		Map		Src		Chg	
+77.72.169.213:3478	stun.netappel.com:3478		Map		Src		Chg	
+77.72.169.213:3478	stun.powervoip.com:3478		Map		Src		Chg	
+77.72.169.213:3478	stun.ppdi.com:3478		Map		Src		Chg	
+77.72.169.213:3478	stun.rynga.com:3478		Map		Src		Chg	
+77.72.169.213:3478	stun.signalwire.com:3478		Map		Src		Chg	
+77.72.169.213:3478	stun.sipdiscount.com:3478		Map		Src		Chg	
+77.72.169.213:3478	stun.smsdiscount.com:3478		Map		Src		Chg	
+77.72.169.213:3478	stun.voicetrading.com:3478		Map		Src		Chg	
+77.72.169.213:3478	stun.voipbusterpro.com:3478		Map		Src		Chg	
+77.72.169.213:3478	stun.voipcheap.co.uk:3478		Map		Src		Chg	
+77.72.169.213:3478	stun.voipdiscount.com:3478		Map		Src		Chg	
+
+#195.120.250.50:3478	sip.neomedia.it	195.103.207.16:3479
+195.120.250.50:3478	stun.acquageraci.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.autosystem.com:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.barbaratabita.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.bernardoprovenzano.net:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.carlovizzini.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.ctafauni.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.fondazioneroccochinnici.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.hotelparadisebeach.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.istitutogramscisiciliano.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.ladridiricette.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.leonde.org:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.marcelproust.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.neomedia.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.ortopediacoam.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.parcodeinebrodi.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.studio71.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.surjaring.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.thebrassgroup.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.uiltucssicilia.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.villapalagonia.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+195.120.250.50:3478	stun.waterpolopalermo.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+
+#216.93.246.18:3478	(stun.ekiga.net)	216.93.246.15:3479
+216.93.246.18:3478	stun.ekiga.net:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.98-CPC
+216.93.246.18:3478	stun.12connect.com:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.98-CPC
+216.93.246.18:3478	stun.5sn.com:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.98-CPC
+216.93.246.18:3478	stun.alberon.cz:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.98-CPC
+216.93.246.18:3478	stun.avoxi.com:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.98-CPC
+216.93.246.18:3478	stun.counterpath.com:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.98-CPC
+216.93.246.18:3478	stun.counterpath.net:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.98-CPC
+216.93.246.18:3478	stun.fixup.net:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.98-CPC
+216.93.246.18:3478	stun.freeswitch.org:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.98-CPC
+216.93.246.18:3478	stun.hanacke.net:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.98-CPC
+216.93.246.18:3478	stun.modulus.gr:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.98-CPC
+216.93.246.18:3478	stun.pure-ip.com:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.98-CPC
+216.93.246.18:3478	stun.sigmavoip.com:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.98-CPC
+216.93.246.18:3478	stun.voipstreet.com:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.98-CPC
+216.93.246.18:3478	stun.xten.com:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.98-CPC
+
+#217.10.68.152:3478	stun01.live.sipgate.net	217.116.122.138:3479
+#217.10.68.145:3478	stun02.live.sipgate.net	217.116.122.143:3479
+217.10.68.145:3478	stun.siplogin.de:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+217.10.68.152:3478	stun.clickphone.ro:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+217.10.68.152:3478	stun.hosteurope.de:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+217.10.68.152:3478	stun.londonweb.net:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+217.10.68.152:3478	stun.mixvoip.com:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+217.10.68.152:3478	stun.myhowto.org:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+217.10.68.152:3478	stun.odr.de:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+217.10.68.152:3478	stun.sipgate.net:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+217.10.68.145:10000 stun.sipgate.net:10000	XMap	Map		Src		Chg Software:Vovida.org 0.96
+
+#212.227.67.33:3478	stun.1und1.de	212.227.67.34:3479
+212.227.67.33:3478	iphone-stun.strato-iphone.de:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.97
+212.227.67.33:3478	stun.callromania.ro:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.97
+212.227.67.33:3478	stun.selasky.org:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.97
+212.227.67.34:3478	stun.1und1.de:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.97
+212.227.67.34:3478	stun.geonet.ro:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.97
+212.227.67.34:3478	stun.gmx.de:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.97
+212.227.67.34:3478	stun.gmx.net:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.97
+212.227.67.34:3478	stun.magyarphone.eu:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.97
+212.227.67.34:3478	stun.schlund.de:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.97
+
+#185.39.86.17:3478	stun.rockenstein.de[stun.fra.purtel.com]	185.39.86.18:3479
+185.39.86.17:3478	stun.rockenstein.de:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+185.39.86.17:3478	stun.stadtwerke-eutin.de:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+185.39.86.17:3478	stun.swrag.de:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+185.39.86.17:3478	stun.wemag.com:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+
+#206.53.159.130:3478	stun.voip.blackberry.com	206.53.159.131:3479 (*good* RFC5780)
+#206.53.159.134:3478	stun.voip.blackberry.com	206.53.159.135:3479	(*good* RFC5780)
+206.53.159.134:3478 stun.voip.blackberry.com:3478   XMap    Map Orig        Oth     Software:Citrix-3.2.3.1 'Marshal West'
+
+#195.35.114.36:3478	stun0-ams.voipgrid.nl	????	(wrong OTHER-ADDRESS)
+#195.35.115.36:3478	stun0-grq.voipgrid.nl	????	(wrong OTHER-ADDRESS)
+195.35.114.36:3478	stun.voipgrid.nl:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.1.0 'dan Eider'
+195.35.115.36:3478	stun.voys.nl:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.1.0 'dan Eider'
+
+#83.211.9.232:3478	ip-9-232.sn2.clouditalia.com	83.211.9.234:3479
+83.211.9.232:3478	stun.muoversi.net:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+83.211.9.232:3478	stun.officinabit.com:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+83.211.9.232:3478	stun.openvoip.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+83.211.9.232:3478	stun.tichiamo.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+83.211.9.232:3478	stun.voip.eutelia.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+83.211.9.232:3478	stun.voipvoice.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+
+#138.201.201.66:3478	static.66.201.201.138.clients.your-server.de	????	(wrong OTHER-ADDRESS)
+138.201.201.66:3478	stun.bridesbay.com:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.0.3 'dan Eider'
+138.201.201.66:3478	stun.meetwife.com:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.0.3 'dan Eider'
+138.201.201.66:3478	stun.ru-brides.com:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.0.3 'dan Eider'
+138.201.201.66:3478	stun.uabrides.com:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.0.3 'dan Eider'
+
+#138.201.222.134:3478	static.134.222.201.138.clients.your-server.de	????	(wrong OTHER-ADDRESS)
+138.201.222.134:3478	stun.godatenow.com:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.0.3 'dan Eider'
+138.201.222.134:3478	stun.romancecompass.com:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.0.3 'dan Eider'
+138.201.222.134:3478	stun.vavadating.com:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.0.3 'dan Eider'
+138.201.222.134:3478	stun.yesdates.com:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.0.3 'dan Eider'
+
+#37.187.168.105:3478	ns3506010.ip-37-187-168.eu	????	(wrong OTHER-ADDRESS)
+37.187.168.105:3478	stun.mondiaspora.net:3478	XMap	Map	Orig		Oth		Software:Citrix-3.2.4.5 'Marshal West'
+37.187.168.105:3478	stun.mondiaspora.org:3478	XMap	Map	Orig		Oth		Software:Citrix-3.2.4.5 'Marshal West'
+37.187.168.105:3478	stun.mrmondialisation.org:3478	XMap	Map	Orig		Oth		Software:Citrix-3.2.4.5 'Marshal West'
+
+#54.37.20.144:3478	ip144.ip-54-37-20.eu	151.80.120.125:3479
+54.37.20.144:3478	stun1.faktortel.com.au:3478	XMap			Src		Chg	Software:reTURNServer 1.11.0~beta1 (RFC5389) 
+54.37.20.144:3478	stun.faktortel.com.au:3478	XMap			Src		Chg	Software:reTURNServer 1.11.0~beta1 (RFC5389) 
+54.37.20.144:3478	stun.innotel.com.au:3478	XMap			Src		Chg	Software:reTURNServer 1.11.0~beta1 (RFC5389) 
+
+#54.39.182.217:3478	ip217.ip-54-39-182.eu	51.79.116.90:3479C
+#54.39.188.150:3478	ip150.ip-54-39-188.eu	54.39.75.88:3479
+#54.37.20.144:3478	ip144.ip-54-37-20.eu	151.80.120.125:3479
+#51.91.201.86:3478	ip86.ip-51-91-201.eu	51.38.45.26:3479
+54.39.182.217:3478	stun.3cx.com:3478	XMap			Src		Chg	Software:reTURNServer 1.11.0~beta1 (RFC5389) 
+54.39.182.217:3478	stun.peoplefone.ch:3478	XMap			Src		Chg	Software:reTURNServer 1.11.0~beta1 (RFC5389) 
+
+#121.101.91.194:3478	p655bc2.hkidff01.ap.so-net.ne.jp	192.168.0.249:3479	(bad OTHER-ADDRESS local)
+121.101.91.194:3478	stun.coffee-sen.com:3478	XMap	Map	Orig		Oth		
+121.101.91.194:3478	stun.kitamaebune.com:3478	XMap	Map	Orig		Oth		
+
+#134.119.17.210:3478	j308623.servers.jiffybox.net	????	(wrong OTHER-ADDRESS)
+134.119.17.210:3478	stun.dsin-berufsschulen.de:3478	XMap	Map	Orig		Oth		Software:None
+134.119.17.210:3478	stun.goldener-internetpreis.de:3478	XMap	Map	Orig		Oth		Software:None
+
+#146.185.186.157:3478	beebeetle.com	????	(wrong OTHER-ADDRESS)
+146.185.186.157:3478	stun.beebeetle.com:3478	XMap	Map	Orig		Oth		Software:Coturn-4.2.1.2 'Monza'
+146.185.186.157:3478	stun.funwithelectronics.com:3478	XMap	Map	Orig		Oth		Software:Coturn-4.2.1.2 'Monza'
+
+#157.161.10.34:3479	sipgw.imp.ch	157.161.10.35:3478	(bad CHANGED-ADDRESS noresponse)
+157.161.10.34:3478	stun.imp.ch:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+157.161.10.34:3478	stun.streamnow.ch:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+
+#176.9.118.85:3478	srv4.nwsrv.de	????	(wrong OTHER-ADDRESS)
+176.9.118.85:3478	stun.tula.nu:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.1.1 'dan Eider'
+176.9.118.85:3478	stun.vomessen.de:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.1.1 'dan Eider'
+
+#18.191.223.12:3478	ec2-18-191-223-12.us-east-2.compute.amazonaws.com	18.219.110.18:3479	(*good* RFC5780)
+18.191.223.12:3478	stun.issabel.org:3478	XMap	Map	Orig		Oth		
+18.191.223.12:3478	stun.stunprotocol.org:3478	XMap	Map	Orig		Oth		
+
+#185.112.247.26:3478	bill.soho66.net	185.112.247.44:3479
+185.112.247.26:3478	stun.goldfish.ie:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.97
+185.112.247.26:3478	stun.soho66.co.uk:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.97
+
+#194.140.246.192:3478	stun.gntel.nl	91.215.4.139:3479	(*good* RFC5780)
+194.140.246.192:3478	stun.gntel.nl:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.0.5 'dan Eider'
+194.140.246.192:3478	stun.voipxs.nl:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.0.5 'dan Eider'
+
+#194.169.214.30:3478	stun.ippi.com	194.169.214.22:5060
+194.169.214.30:3478	stun.ippi.com:3478	XMap	Map		Src		Chg	
+194.169.214.30:3478	stun.ippi.fr:3478	XMap	Map		Src		Chg	
+
+#194.87.0.22:3478	moscvax.demos.net	194.87.0.11:3479
+194.87.0.22:3478	stun.demos.ru:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+194.87.0.22:3478	stun.demos.su:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+
+#213.203.205.244:3478	(stun.spreed.me)	213.203.205.245:443	(*good* RFC5780)
+213.203.205.244:3478	stun.nextcloud.com:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.0.3 'dan Eider'
+213.203.205.244:3478	stun.spreed.me:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.0.3 'dan Eider'
+
+#216.144.89.2:3478	stun.logic.ky	216.144.89.3:3482
+216.144.89.2:3478	stun.logic.ky:3478		Map		Src		Chg	
+216.144.89.2:3478	stun.westtel.ky:3478		Map		Src		Chg	
+
+#34.73.197.25:3478	25.197.73.34.bc.googleusercontent.com	10.142.0.2:3479	(bad OTHER-ADDRESS virtual)
+34.73.197.25:3478	stun.ringvoz.com:3478	XMap	Map	Orig		Oth		Software:None
+34.73.197.25:3478	stun.telonline.com:3478	XMap	Map	Orig		Oth		Software:None
+
+#37.59.92.57:3478	dada.otos.pl	37.59.92.58:3479
+37.59.92.57:3478	stun.h4v.eu:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+37.59.92.57:3478	stun.otos.pl:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+
+#45.32.217.190:3478	(stun.siptrunk.com)	45.32.212.202:3479	(*good* RFC5780)
+45.32.217.190:3478	stun.siptrunk.com:3478	XMap	Map	Orig		Oth		
+45.32.217.190:3478	stun.sip.us:3478	XMap	Map	Orig		Oth		
+
+#5.9.112.14:3478	hsf2.tspi.at	127.0.0.1:3479	(bad OTHER-ADDRESS local)
+5.9.112.14:3478	stun.kiesler.at:3478	XMap	Map	Orig		Oth		Software:Citrix-3.2.5.3 'Marshal West'
+5.9.112.14:3478	stun.ko2100.at:3478	XMap	Map	Orig		Oth		Software:Citrix-3.2.5.3 'Marshal West'
+
+#5.9.87.18:3478	mail.nexxtmobile.de	5.9.87.6:3479
+5.9.87.18:3478	stun.einfachcallback.de:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+5.9.87.18:3478	stun.nexxtmobile.de:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+5.9.87.18:3478	stun.solomo.de:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+
+#80.250.1.173:3478	sipy.cz	80.250.1.167:3479
+80.250.1.173:3478	stun.sipy.cz:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+80.250.1.173:3478	stun.wia.cz:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+
+#82.113.193.63:3478	(stun.twt.it)	82.113.193.67:3479
+82.113.193.63:3478	stun.olimontel.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+82.113.193.63:3478	stun.totalcom.info:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+82.113.193.63:3478	stun.twt.it:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+
+#85.192.44.73:3478	(stun.comtube.com)	192.168.5.11:5060	(bad CHANGED-ADDRESS local)
+85.192.44.73:3478	stun.comtube.com:3478	XMap	Map		Src		Chg	
+85.192.44.73:3478	stun.comtube.ru:3478	XMap	Map		Src		Chg	
+
+#85.214.134.163:3479	sip1.aeta-audio.com	85.214.119.212:3478
+#81.169.136.159:3479	sip2.aeta-audio.com	85.214.119.212:3478
+85.214.134.163:3478	stun.aeta-audio.com:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+85.214.134.163:3478	stun.aeta.com:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+
+#85.93.219.114:3478	vvoip3.tel.lu	85.93.219.115:3479
+85.93.219.114:3478	stun.tel.lu:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+85.93.219.114:3478	stun.vo.lu:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+
+#88.198.203.20	static.88-198-203-20.clients.your-server.de	88.198.203.20:3479	(*good* FRC5780)
+88.198.203.20:3478	stun.expandable.io:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.0.3 'dan Eider'
+88.198.203.20:3478	stun.yeymo.com:3478	XMap	Map	Orig		Oth		Software:Coturn-4.5.0.3 'dan Eider'
+
+#88.86.102.51:3478	nezmar.jabbim.cz	88.86.102.52:3479
+88.86.102.51:3478	stun.jabbim.cz:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+88.86.102.51:3478	stun.net-mag.cz:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+
+#89.185.235.201:3478	kybl.shy.cz	????	(wrong OTHER-ADDRESS)
+89.185.235.201:3478	stun.draci.info:3478	XMap	Map	Orig		Oth		Software:Coturn-4.2.1.2 'Monza'
+89.185.235.201:3478	stun.shy.cz:3478	XMap	Map	Orig		Oth		Software:Coturn-4.2.1.2 'Monza'
+
+#91.121.31.8:3478	srv02.npo.ivao.aero	178.33.255.98:3479
+91.121.31.8:3478	stun.ivao.aero:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+91.121.31.8:3478	stun.ivao.co.uk:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+
+#91.205.60.185:3478	stun.voicetech.se	91.205.60.139:3479
+91.205.60.185:3478	stun.junet.se:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+91.205.60.185:3478	stun.voicetech.se:3478	XMap	Map		Src		Chg	Software:Vovida.org 0.96
+

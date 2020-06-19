@@ -1,0 +1,31 @@
+#74.125.68.127 stun*.l.google.com    74.125.202.127   173.194.199.127 173.194.203.127 173.194.77.127
+74.125.68.127:19302	stun.l.google.com:19302	XMap						
+74.125.68.127:19305	stun.l.google.com:19305	XMap						
+74.125.202.127:19302	stun3.l.google.com:19302	XMap						
+74.125.202.127:19305	stun3.l.google.com:19305	XMap						
+173.194.199.127:19302	stun2.l.google.com:19302	XMap						
+173.194.199.127:19305	stun2.l.google.com:19305	XMap						
+173.194.203.127:19302	stun1.l.google.com:19302	XMap						
+173.194.203.127:19305	stun1.l.google.com:19305	XMap						
+173.194.77.127:19302	stun4.l.google.com:19302	XMap						
+173.194.77.127:19305	stun4.l.google.com:19305	XMap						
+
+#212.53.40.40   sipnet.com
+212.53.40.40:3478	stun.1cbit.ru:3478	XMap						
+212.53.40.40:3478	stun.sipnet.com:3478	XMap						
+212.53.40.40:3478	stun.sipnet.net:3478	XMap						
+212.53.40.40:3478	stun.sipnet.ru:3478	XMap						
+212.53.40.40:3478	stun.zepter.ru:3478	XMap						
+
+#138.201.70.161 mailb.org
+138.201.70.161:3478	stun.cdosea.org:3478	XMap	Map	Orig				Software:None
+138.201.70.161:3478	stun.piratecinema.org:3478	XMap	Map	Orig				Software:None
+138.201.70.161:3478	stun.textz.com:3478	XMap	Map	Orig				Software:None
+
+#5.9.154.226    le-space.de
+5.9.154.226:3478	stun.le-space.de:3478	XMap	Map	Orig				Software:Coturn-4.2.1.2 'Monza'
+5.9.154.226:3478	stun.nicokrause.com:3478	XMap	Map	Orig				Software:Coturn-4.2.1.2 'Monza'
+
+#45.55.181.199
+45.55.181.199:3478	stun.megakosmos.com.br:3478	XMap	Map	Orig				Software:Coturn-4.5.0.3 'dan Eider'
+45.55.181.199:3478	stun.psipsi.com.br:3478	XMap	Map	Orig				Software:Coturn-4.5.0.3 'dan Eider'
