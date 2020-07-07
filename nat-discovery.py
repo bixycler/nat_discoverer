@@ -69,13 +69,17 @@ def changeRequest(chIP=False, chPort=False):
 
 # Connection & NAT types
 Blocked = "(Blocked)"
-OpenInternet = "Open Internet"
+TestingError = "(Error testing for NAT discovery)"
+OpenInternet = "Open Internet (no NAT)"
 FullCone = "Full Cone"
 SymmetricUDPFirewall = "Symmetric UDP Firewall"
 RestricNAT = "Restricted Cone"
 RestricPortNAT = "Port Restricted Cone"
 SymmetricNAT = "Symmetric"
-TestingError = "(Error testing for NAT discovery)"
+EndpointIndependent = 'Endpoint Independent'
+AddressDependent = 'Address Dependent'
+PortDependent = 'Port Dependent'
+AddressPortDependent = 'Address-Port Dependent'
 
 def inverseDict(d):
     items = d.items()
@@ -93,16 +97,16 @@ def gen_tran_id(classic=False):
     return m + a
 
 def parseAddress(buf):
-    port = int(binascii.b2a_hex(buf[:2]), 16)
+    port = struct.unpack('!H', buf[:2])[0]
     ip = ".".join([
-        str(int(binascii.b2a_hex(buf[2:3]), 16)),
-        str(int(binascii.b2a_hex(buf[3:4]), 16)),
-        str(int(binascii.b2a_hex(buf[4:5]), 16)),
-        str(int(binascii.b2a_hex(buf[5:6]), 16))
+        str(struct.unpack('!B', buf[2:3])[0]),
+        str(struct.unpack('!B', buf[3:4])[0]),
+        str(struct.unpack('!B', buf[4:5])[0]),
+        str(struct.unpack('!B', buf[5:6])[0])
     ])
     return ip, port
 
-def stun_test(sock, host, port, source_ip, source_port, send_data="", classic=False):
+def stun_test(sock, host, port, send_data="", classic=False):
     ret = {'Err': None, 
         'ExternalIP': None, 'ExternalPort': None,
         'ResponseIP': None, 'ResponsePort': None, 
@@ -148,14 +152,14 @@ def stun_test(sock, host, port, source_ip, source_port, send_data="", classic=Fa
             ret['Err'] = 'Transaction ID Mismatch'
             return ret
         recvCorr = True
-        len_message = int(binascii.b2a_hex(buf[2:4]), 16)
+        len_message = struct.unpack('!H', buf[2:4])[0]
         len_remain = len_message
 
         #STUN attributes
         base = 20
         while len_remain:
             attr_type = binascii.b2a_hex(buf[base:(base+2)])
-            attr_len = int(binascii.b2a_hex(buf[(base+2):(base+4)]), 16)
+            attr_len = struct.unpack('!H', buf[(base+2):(base+4)])[0]
             if attr_type == STUN_ATTR['MAPPED-ADDRESS']:
                 ret['ExternalIP'], ret['ExternalPort'] = parseAddress(buf[base+6:])
             elif ( attr_type == STUN_ATTR['RESPONSE-ORIGIN'] 
@@ -177,19 +181,20 @@ def open_socket(source_ip, source_port):
     s.bind((source_ip, source_port))
     return s
 
+# RFC3489: Simple Traversal of UDP Through NATs (in section 10. Use Cases)
 def check_nat_type(source_ip='0.0.0.0', source_port=0, stun_host=None, stun_port=3478):
     s = open_socket(source_ip, source_port)
 
-    # Test I: Send regular Mapping Request
-    log.debug('# Test I')
+    # Test I: Send regular Binding Request
+    log.debug('# Test I: Send regular Binding Request')
     err = True
     if stun_host:
-        ret = stun_test(s, stun_host, stun_port, source_ip, source_port, classic=True)
+        ret = stun_test(s, stun_host, stun_port, classic=True)
         err = ret['Err']
     else:
         for stun_host in stun_servers_list:
             log.debug('trying STUN host: %s', stun_host)
-            ret = stun_test(s, stun_host, stun_port, source_ip, source_port, classic=True)
+            ret = stun_test(s, stun_host, stun_port, classic=True)
             err = ret['Err']
             if not err: break
     if err: s.close(); return Blocked, None, None
@@ -200,41 +205,139 @@ def check_nat_type(source_ip='0.0.0.0', source_port=0, stun_host=None, stun_port
     changedIP = ret['OtherIP']
     changedPort = ret['OtherPort']
     if ret['ExternalIP'] == source_ip:
-        # Test II: Send Mapping Request with Change Address & Change Port params
-        log.debug('# Test II')
-        ret = stun_test(s, stunIP, stun_port, source_ip, source_port, 
+        # Test II: Request to change both IP and port
+        log.debug('# Test II: Request to change both IP and port')
+        ret = stun_test(s, stunIP, stun_port, 
             changeRequest(True,True), classic=True)
         log.debug('result: %s', dumps(ret, indent=4, sort_keys=True))
         if not ret['Err']: s.close(); return OpenInternet, exIP,exPort
         elif ret['Err'] == 'Timeout': s.close(); return SymmetricUDPFirewall, exIP,exPort
         else: return TestingError, exIP,exPort
 
-    # Test II: Send Mapping Request with Change Address & Change Port params
-    log.debug('# Test II')
-    ret = stun_test(s, stunIP, stun_port, source_ip, source_port, 
-            changeRequest(True,True), classic=True)
+    # Test II: Request to change both IP and port
+    log.debug('# Test II: Request to change both IP and port')
+    ret = stun_test(s, stunIP, stun_port, changeRequest(True,True), classic=True)
     log.debug('result: %s', dumps(ret, indent=4, sort_keys=True))
     if not ret['Err']: s.close(); return FullCone, exIP,exPort
     elif ret['Err'] != 'Timeout': s.close(); return TestingError, exIP,exPort
 
-    # Test I': Send regular Mapping Request to the other address
-    log.debug('# Test I\'')
-    ret = stun_test(s, changedIP, changedPort, source_ip, source_port, classic=True)
+    # Test I': Send regular Binding Request to the other address
+    log.debug("# Test I': Send regular Binding Request to the other address")
+    ret = stun_test(s, changedIP, changedPort, classic=True)
     log.debug('result: %s', dumps(ret, indent=4, sort_keys=True))
     if ret['Err']: s.close(); return TestingError, exIP,exPort
     elif exIP != ret['ExternalIP'] or exPort != ret['ExternalPort']:
         s.close(); return SymmetricNAT, exIP,exPort
 
-    # Test III: Send Mapping Request with Change Port param
+    # Test III: Request to change port only
     s.close(); s = open_socket(source_ip, source_port) #reinit to clear previous state
-    log.debug('# Test III')
-    ret = stun_test(s, stunIP, stun_port, source_ip, source_port, 
-            changeRequest(chPort=True), classic=True)
+    log.debug('# Test III: Request to change port only')
+    ret = stun_test(s, stunIP, stun_port, changeRequest(chPort=True), classic=True)
     log.debug('result: %s', dumps(ret, indent=4, sort_keys=True))
     if not ret['Err']: s.close(); return RestricNAT, exIP,exPort
     elif ret['Err'] == 'Timeout': 
         s.close(); return RestricPortNAT, exIP,exPort
     else: return TestingError, exIP,exPort
+
+# RFC5780: 4.3.  Determining NAT Mapping Behavior
+def check_mapping_type(source_ip='0.0.0.0', source_port=0, stun_host=None, stun_port=3478):
+    s = open_socket(source_ip, source_port)
+
+    # Test I: Send regular Binding Request
+    log.debug('# Test I: Send regular Binding Request')
+    err = True
+    if stun_host:
+        ret = stun_test(s, stun_host, stun_port)
+        err = ret['Err']
+    else:
+        for stun_host in stun_servers_list:
+            log.debug('trying STUN host: %s', stun_host)
+            ret = stun_test(s, stun_host, stun_port)
+            err = ret['Err']
+            if not err: break
+    if err: s.close(); return Blocked, None, None
+    log.debug('result: %s', dumps(ret, indent=4, sort_keys=True))
+    exIP = ret['ExternalIP']
+    exPort = ret['ExternalPort']
+    stunIP = ret['ResponseIP']
+    changedIP = ret['OtherIP']
+    changedPort = ret['OtherPort']
+    if ret['ExternalIP'] == source_ip: s.close(); return OpenInternet, exIP,exPort
+    if not changedIP or not changedPort or changedIP==stunIP or changedPort==stun_port:
+        log.debug('NAT discovery feature not supported by this server')
+        s.close(); return TestingError, None, None
+    exAddr1 = exIP+':'+str(exPort)
+
+    # Test II: Send Binding Request to the other IP but primary port
+    log.debug('# Test II: Send Binding Request to the other IP but primary port')
+    ret = stun_test(s, changedIP, stun_port)
+    if ret['Err']: s.close(); return TestingError, None, None
+    log.debug('result: %s', dumps(ret, indent=4, sort_keys=True))
+    exAddr2 = ret['ExternalIP']+':'+str(ret['ExternalPort'])
+
+    # Test III: Send Binding Request to the other IP and port
+    log.debug('# Test III: Send Binding Request to the other IP and port')
+    ret = stun_test(s, changedIP, changedPort)
+    if ret['Err']: s.close(); return TestingError, None, None
+    log.debug('result: %s', dumps(ret, indent=4, sort_keys=True))
+    exAddr3 = ret['ExternalIP']+':'+str(ret['ExternalPort'])
+
+    # Assert mapping type
+    s.close()
+    if exAddr1 == exAddr2:
+        if exAddr2 == exAddr3: return EndpointIndependent, exIP,exPort
+        else: return PortDependent, exIP,exPort
+    else:
+        if exAddr2 != exAddr3: return AddressPortDependent, exIP,exPort
+        else: return AddressDependent, exIP,exPort
+
+# RFC5780: 4.4.  Determining NAT Filtering Behavior
+def check_filtering_type(source_ip='0.0.0.0', source_port=0, stun_host=None, stun_port=3478):
+    s = open_socket(source_ip, source_port)
+
+    # Test I: Send regular Binding Request
+    log.debug('# Test I: Send regular Binding Request')
+    err = True
+    if stun_host:
+        ret = stun_test(s, stun_host, stun_port)
+        err = ret['Err']
+    else:
+        for stun_host in stun_servers_list:
+            log.debug('trying STUN host: %s', stun_host)
+            ret = stun_test(s, stun_host, stun_port)
+            err = ret['Err']
+            if not err: break
+    if err: s.close(); return Blocked, None, None
+    log.debug('result: %s', dumps(ret, indent=4, sort_keys=True))
+    exIP = ret['ExternalIP']
+    exPort = ret['ExternalPort']
+    stunIP = ret['ResponseIP']
+    if ret['ExternalIP'] == source_ip: s.close(); return OpenInternet, exIP,exPort
+
+    # Test II: Request to change both IP and port
+    s.close(); s = open_socket(source_ip, source_port)
+    log.debug('# Test II: Request to change both IP and port')
+    ret = stun_test(s, stunIP, stun_port, changeRequest(True,True), classic=True)
+    log.debug('result: %s', dumps(ret, indent=4, sort_keys=True))
+    if not ret['Err']: s.close(); return EndpointIndependent, exIP,exPort
+    elif ret['Err'] != 'Timeout': s.close(); return TestingError, exIP,exPort
+
+    # Test III: Request to change port only
+    s.close(); s = open_socket(source_ip, source_port)
+    log.debug('# Test III: Request to change port only')
+    ret = stun_test(s, stunIP, stun_port, changeRequest(chPort=True), classic=True)
+    log.debug('result: %s', dumps(ret, indent=4, sort_keys=True))
+    if not ret['Err']: s.close(); return AddressDependent, exIP,exPort
+    elif ret['Err'] != 'Timeout': return TestingError, exIP,exPort
+
+    # Test IV: Request to change IP only
+    s.close(); s = open_socket(source_ip, source_port)
+    log.debug('# Test IV: Request to change IP only')
+    ret = stun_test(s, stunIP, stun_port, changeRequest(chIP=True), classic=True)
+    log.debug('result: %s', dumps(ret, indent=4, sort_keys=True))
+    if not ret['Err']: s.close(); return PortDependent, exIP,exPort
+    elif ret['Err'] != 'Timeout': return TestingError, exIP,exPort
+    else: return AddressPortDependent, exIP,exPort
 
 
 def make_argument_parser():
@@ -242,8 +345,16 @@ def make_argument_parser():
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument(
+        '-m', '--mapping', action='store_true',
+        help='Discover the type of mapping between internal address and external address (RFC5780)'
+    )
+    parser.add_argument(
+        '-f', '--filtering', action='store_true',
+        help='Discover the type of inbound address filtering (RFC5780)'
+    )
+    parser.add_argument(
         '-d', '--debug', action='store_true',
-        help='enable debug logging'
+        help='Enable debug logging'
     )
     parser.add_argument(
         '-j', '--json', action='store_true',
@@ -262,12 +373,12 @@ def make_argument_parser():
     parser.add_argument(
         '-i', '--source-ip',
         default=DEFAULTS['source_ip'],
-        help='network interface for client'
+        help='Network interface from which client sends Binding Request'
     )
     parser.add_argument(
         '-p', '--source-port', type=int,
         default=DEFAULTS['source_port'],
-        help='port to listen on for client'
+        help='Port to listen on for client'
     )
     return parser
 
@@ -286,17 +397,45 @@ def main():
             options.debug and not options.json
             if logging.DEBUG else logging.INFO
         )
+            
+        if not options.mapping and not options.filtering:
+            fprint('{}'.format('- Discovering NAT type (it may take 5 to 60 seconds) ...'))
+            nat_type, exIP,exPort = check_nat_type(
+                options.source_ip, options.source_port,
+                options.stun_host, options.stun_port
+            )
+            fprint('{}\n'.format('-' * 60))
+            fprint('\tNAT Type: {}'.format(nat_type))
+            fprint('\tExternal IP: {}'.format(exIP))
+            fprint('\tExternal Port: {}'.format(exPort))
+            fprint('\n{}'.format(('-' * 60)))
 
-        fprint('{}'.format('- Discovering NAT type (it may take 5 to 60 seconds) ...'))
-        nat_type, exIP,exPort = check_nat_type(
-            options.source_ip, options.source_port,
-            options.stun_host, options.stun_port
-        )
-        fprint('{}\n'.format('-' * 60))
-        fprint('\tNAT Type: {}'.format(nat_type))
-        fprint('\tExternal IP: {}'.format(exIP))
-        fprint('\tExternal Port: {}'.format(exPort))
-        fprint('\n{}'.format(('-' * 60)))
+        if options.mapping:
+            fprint('{}'.format('- Discovering NAT mapping type (it may take 5 to 10 seconds) ...'))
+            mapping_type, exIP,exPort = check_mapping_type(
+                options.source_ip, options.source_port,
+                options.stun_host, options.stun_port
+            )
+            nat_type = 'Mapping: '+mapping_type
+            fprint('{}\n'.format('-' * 60))
+            fprint('\tNAT Mapping Type: {}'.format(mapping_type))
+            fprint('\tExternal IP: {}'.format(exIP))
+            fprint('\tExternal Port: {}'.format(exPort))
+            fprint('\n{}'.format(('-' * 60)))
+
+        if options.filtering:
+            fprint('{}'.format('- Discovering NAT filtering type (it may take 5 to 10 seconds) ...'))
+            filtering_type, exIP,exPort = check_filtering_type(
+                options.source_ip, options.source_port,
+                options.stun_host, options.stun_port
+            )
+            nat_type = '  Filtering: '+filtering_type
+            fprint('{}\n'.format('-' * 60))
+            fprint('\tNAT Filtering Type: {}'.format(filtering_type))
+            fprint('\tExternal IP: {}'.format(exIP))
+            fprint('\tExternal Port: {}'.format(exPort))
+            fprint('\n{}'.format(('-' * 60)))
+
 
         if options.json:
             print dumps({

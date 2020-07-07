@@ -61,11 +61,7 @@ func MappingTests(addrStr string) error {
 	request := stun.MustBuild(stun.TransactionID, stun.BindingRequest)
 
 	resp, err := mapTestConn.roundTrip(request, mapTestConn.RemoteAddr)
-	if err == ErrTimedOut {
-		if *verbose >=1 { fmt.Println("Error: timed out waiting for response from server") }
-		return err
-	}else if err != nil {
-		if *verbose >=1 { fmt.Printf("Error receiving response from server: %s\n", err.Error()) }
+	if err != nil {
 		return err
 	}
 
@@ -94,13 +90,8 @@ func MappingTests(addrStr string) error {
 	oaddr := *mapTestConn.OtherAddr
 	oaddr.Port = mapTestConn.RemoteAddr.Port
 	resp, err = mapTestConn.roundTrip(request, &oaddr)
-	if err == ErrTimedOut {
-		if *verbose >=1 { fmt.Println("Error: timed out waiting for response from server") }
-		return err
-	}
 	if err != nil {
-		if *verbose >=1 { fmt.Printf("Error retrieving server response: %s\n", err.Error()) }
-		return nil
+		return err
 	}
 
 	// Assert mapping behavior
@@ -114,13 +105,8 @@ func MappingTests(addrStr string) error {
 	// Test III: Send binding request to the other address and port
 	if *verbose >=1 { fmt.Println("\nMapping Test III: Send binding request to the other address and port") }
 	resp, err = mapTestConn.roundTrip(request, mapTestConn.OtherAddr)
-	if err == ErrTimedOut {
-		if *verbose >=1 { fmt.Println("Error: timed out waiting for response from server") }
-		return err
-	}
 	if err != nil {
-		if *verbose >=1 { fmt.Printf("Error retrieving server response: %s\n", err.Error()) }
-		return nil
+		return err
 	}
 
 	// Assert mapping behavior
@@ -154,11 +140,7 @@ func FilteringTests(addrStr string) error {
 	request := stun.MustBuild(stun.TransactionID, stun.BindingRequest)
 
 	resp, err := mapTestConn.roundTrip(request, mapTestConn.RemoteAddr)
-	if err == ErrTimedOut {
-		if *verbose >=1 { fmt.Println("Error: timed out waiting for response from server") }
-		return err
-	} else if err != nil {
-		if *verbose >=1 { fmt.Printf("Error: %s\n", err.Error()) }
+	if err != nil || err == ErrTimedOut {
 		return err
 	}
 	xorAddr, otherAddr, _,_,_ = parse(resp)
@@ -182,12 +164,8 @@ func FilteringTests(addrStr string) error {
 		parse(resp)
 		fmt.Println("\n=> NAT filtering behavior: endpoint independent")
 		return nil
-	} else if err == ErrTimedOut {
-		if *verbose >=1 { fmt.Println("Timeout") }
-	} else {
-		// something else went wrong
-		if *verbose >=1 { fmt.Printf("Error reading response from server: %s\n", err.Error()) }
-		return err
+	} else if err != ErrTimedOut {
+		return err // something else went wrong
 	}
 
 	// Test III: Request to change port only
@@ -199,12 +177,9 @@ func FilteringTests(addrStr string) error {
 		parse(resp)
 		fmt.Println("\n=> NAT filtering behavior: address dependent")
 	} else if err == ErrTimedOut {
-		if *verbose >=1 { fmt.Println("Timeout") }
 		fmt.Println("\n=> NAT filtering behavior: address and port dependent")
 	} else {
-		// something else went wrong
-		if *verbose >=1 { fmt.Printf("Error reading response from server: %s\n", err.Error()) }
-		return err
+		return err // something else went wrong
 	}
 
 	return nil
@@ -278,7 +253,7 @@ func connect(addrStr string) (*StunServerConn, error) {
 
 // Send request and wait for response or timeout
 func (c *StunServerConn) roundTrip(msg *stun.Message, addr net.Addr) (*stun.Message, error) {
-	if *verbose >=1 { fmt.Printf("Send to %v: (%v bytes)\n", addr, msg.Length + 20) }
+	if *verbose >=1 { fmt.Printf("Sending to %v: (%v bytes)\n", addr, msg.Length + 20) }
 	if *verbose >=2 {
 		fmt.Printf("%v\n", msg);
         for _, attr := range msg.Attributes {
@@ -288,6 +263,9 @@ func (c *StunServerConn) roundTrip(msg *stun.Message, addr net.Addr) (*stun.Mess
     msg.NewTransactionID()
 	_, err := c.conn.WriteTo(msg.Raw, addr)
 	if err != nil {
+		if *verbose >=1 {
+			fmt.Printf("Error sending request to %v\n", addr)
+		}
 		return nil, err
 	}
 
@@ -299,6 +277,9 @@ func (c *StunServerConn) roundTrip(msg *stun.Message, addr net.Addr) (*stun.Mess
 		}
 		return m, nil
 	case <-time.After(time.Duration(*timeoutPtr) * time.Second):
+		if *verbose >=1 {
+			fmt.Printf("Timed out waiting for response from server %v\n", addr)
+		}
 		return nil, ErrTimedOut
 	}
 }
