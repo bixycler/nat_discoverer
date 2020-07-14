@@ -239,7 +239,7 @@ def check_nat_type(source_ip='0.0.0.0', source_port=0, stun_host=None, stun_port
         s.close(); return RestricPortNAT, exIP,exPort
     else: return TestingError, exIP,exPort
 
-# RFC5780: 4.3.  Determining NAT Mapping Behavior
+# RFC5780: 4.3.+  Determining NAT Mapping Behavior (4 types)
 def check_mapping_type(source_ip='0.0.0.0', source_port=0, stun_host=None, stun_port=3478):
     s = open_socket(source_ip, source_port)
 
@@ -291,7 +291,7 @@ def check_mapping_type(source_ip='0.0.0.0', source_port=0, stun_host=None, stun_
         if exAddr2 != exAddr3: return AddressPortDependent, exIP,exPort
         else: return AddressDependent, exIP,exPort
 
-# RFC5780: 4.4.  Determining NAT Filtering Behavior
+# RFC5780: 4.4.+  Determining NAT Filtering Behavior (4 types)
 def check_filtering_type(source_ip='0.0.0.0', source_port=0, stun_host=None, stun_port=3478):
     s = open_socket(source_ip, source_port)
 
@@ -312,7 +312,6 @@ def check_filtering_type(source_ip='0.0.0.0', source_port=0, stun_host=None, stu
     exIP = ret['ExternalIP']
     exPort = ret['ExternalPort']
     stunIP = ret['ResponseIP']
-    if ret['ExternalIP'] == source_ip: s.close(); return OpenInternet, exIP,exPort
 
     # Test II: Request to change both IP and port
     s.close(); s = open_socket(source_ip, source_port)
