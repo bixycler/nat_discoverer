@@ -1,5 +1,12 @@
 This package is based on the document [NAT Behavior Discovery Using STUN (RFC 5780)](https://www.netmanias.com/en/post/techdocs/6067/nat-network-protocol/nat-behavior-discovery-using-stun-rfc-5780).
 
+Tools:
+- nat-discoverer.go: Go program, forked from [pion/stun/cmd/stun-nat-behaviour](https://github.com/pion/stun/tree/master/cmd/stun-nat-behaviour), updated to support both "classic STUN" (RFC 4389) & STUN (RFC 5780)
+- nat-discovery.py: Python script, forked from [automation-stack/nat-discovery](https://github.com/automation-stack/nat-discovery), fixed bugs and updated to support both "classic STUN" (RFC 4389) & STUN (RFC 5780)
+- check-server/: A STUN client using client-socket and send basic Mapping Request (without attribute) to inspect server's response
+    - public-STUN-servers\*.txt: Lists of hundreds of public servers
+
+
 ## Types of NATs
 
 NAT types in theory: {Address {dep/indep} & Port {dep/indep}} Mapping x {Address {dep/indep} & Port {dep/indep}} Filtering \
