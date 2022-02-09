@@ -15,7 +15,7 @@ NAT types in theory: {Address {dep/indep} & Port {dep/indep}} Mapping x {Address
 In 4 combinations of Address {dep/indep} & Port {dep/indep}, the "Addr indep & Port dep" is unlikely to be implemented \
 => 3^2 = 9 types in RFC 5780.
 
-In 9 combinations of Binding & Filtering (RFC 5780), following 3 combinations are meaningless because their binding is narrower than filtering:
+In 9 combinations of Binding & Filtering (RFC 5780), the following 3 combinations are meaningless because their binding is narrower than filtering:
 - Addr dep Binding & no Filtering
 - Addr-port dep Binding & no Filtering
 - Addr-port dep Binding & Addr dep Filtering
@@ -36,12 +36,12 @@ Because
 - \[R\_cone\] A peer after **cone NAT** can use its server reflexive candidate derived from **STUN**;
 - \[R\_sym\] A peer after **symmetric NAT** must use its peer reflexive candidate derived from its **peer**;
 
-We have following pairing rules:
+We have the following pairing rules:
 - \[R\_cone-cone\] When both peers are after cone NAT, they can both use their server reflexive candidates;
 - \[R\_sym-sym\] When both peers are after symmetric NAT, they must use **relay** candidates derived from *TURN*;
 - \[R\_cone-sym\] When one peer is after cone NAT while the other is after symmetric NAT, server reflexive candidate can be used in combination with peer reflexive candidate to establish peer connection if the filter is not too strict, or else _relay candidates must be used for **port-restricted cone**_.
 
-Thus, we have the following the table for our 6 practical NAT types:
+Thus, we have the following table for our 6 practical NAT types:
 
 |    \    | F.Cone     | R.Cone     | _PR.Cone_  | A.Sym      | RA.Sym     | S.Sym      |
 |:-------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
@@ -52,7 +52,7 @@ Thus, we have the following the table for our 6 practical NAT types:
 | RA.Sym  |prflx\srflx |prflx\srflx |**relay**   |relay       |relay       |relay       |
 | S.Sym   |prflx\srflx |prflx\srflx |**relay**   |relay       |relay       |relay       |
 
-Where NAT types
+Where NAT types:
 * F.Cone: Full-cone NAT
 * R.Cone: Restricted-cone NAT
 * PR.Cone: Port restricted-cone NAT
@@ -60,7 +60,7 @@ Where NAT types
 * RA.Sym: Restricted address symmetric NAT
 * S.Sym: Strictly symmetric NAT
 
-and candidate types
+and candidate types:
 * srflx: Server reflexive candidate (derived from STUN)
 * prflx: Peer reflexive candidate (derived from the other peer)
 * relay: Relay candiate (derived from TURN)
